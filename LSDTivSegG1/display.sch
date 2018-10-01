@@ -23931,6 +23931,84 @@ Source: www.kingbright.com</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="frames" urn="urn:adsk.eagle:library:229">
+<description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="A4L-LOC" urn="urn:adsk.eagle:symbol:13874/1" library_version="1">
+<wire x1="256.54" y1="3.81" x2="256.54" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="256.54" y1="8.89" x2="256.54" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="256.54" y1="13.97" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="256.54" y1="19.05" x2="256.54" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="161.29" y1="3.81" x2="161.29" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="161.29" y1="24.13" x2="215.265" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="24.13" x2="256.54" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="246.38" y1="3.81" x2="246.38" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="246.38" y1="8.89" x2="256.54" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="246.38" y1="8.89" x2="215.265" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="8.89" x2="215.265" y2="3.81" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="8.89" x2="215.265" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="13.97" x2="256.54" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="13.97" x2="215.265" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="19.05" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="215.265" y1="19.05" x2="215.265" y2="24.13" width="0.1016" layer="94"/>
+<text x="217.17" y="15.24" size="2.54" layer="94">&gt;DRAWING_NAME</text>
+<text x="217.17" y="10.16" size="2.286" layer="94">&gt;LAST_DATE_TIME</text>
+<text x="230.505" y="5.08" size="2.54" layer="94">&gt;SHEET</text>
+<text x="216.916" y="4.953" size="2.54" layer="94">Sheet:</text>
+<frame x1="0" y1="0" x2="260.35" y2="179.07" columns="6" rows="4" layer="94"/>
+</symbol>
+<symbol name="A4P-LOC" urn="urn:adsk.eagle:symbol:13888/1" library_version="1">
+<wire x1="85.09" y1="3.81" x2="85.09" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="85.09" y1="24.13" x2="139.065" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="139.065" y1="24.13" x2="180.34" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="170.18" y1="3.81" x2="170.18" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="170.18" y1="8.89" x2="180.34" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="170.18" y1="8.89" x2="139.065" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="139.065" y1="8.89" x2="139.065" y2="3.81" width="0.1016" layer="94"/>
+<wire x1="139.065" y1="8.89" x2="139.065" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="139.065" y1="13.97" x2="180.34" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="139.065" y1="13.97" x2="139.065" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="139.065" y1="19.05" x2="180.34" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="139.065" y1="19.05" x2="139.065" y2="24.13" width="0.1016" layer="94"/>
+<text x="140.97" y="15.24" size="2.54" layer="94">&gt;DRAWING_NAME</text>
+<text x="140.97" y="10.16" size="2.286" layer="94">&gt;LAST_DATE_TIME</text>
+<text x="154.305" y="5.08" size="2.54" layer="94">&gt;SHEET</text>
+<text x="140.716" y="4.953" size="2.54" layer="94">Sheet:</text>
+<frame x1="0" y1="0" x2="184.15" y2="265.43" columns="4" rows="6" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="A4L-LOC" urn="urn:adsk.eagle:component:13926/1" prefix="FRAME" uservalue="yes" library_version="1">
+<description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
+DIN A4, landscape with location and doc. field</description>
+<gates>
+<gate name="G$1" symbol="A4L-LOC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="A4P-LOC" urn="urn:adsk.eagle:component:13946/1" prefix="FRAME" uservalue="yes" library_version="1">
+<description>A4P LOC</description>
+<gates>
+<gate name="G$1" symbol="A4P-LOC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -24066,6 +24144,13 @@ Source: www.kingbright.com</description>
 <part name="R39" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/1" value="150R"/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="U$2" library="lsd2016" deviceset="PCB" device=""/>
+<part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
+<part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
+<part name="FRAME3" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
+<part name="FRAME4" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
+<part name="FRAME5" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4P-LOC" device=""/>
+<part name="FRAME6" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
+<part name="FRAME7" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4P-LOC" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -24097,6 +24182,7 @@ Source: www.kingbright.com</description>
 <instance part="R38" gate="G$1" x="129.54" y="30.48" rot="R90"/>
 <instance part="R39" gate="G$1" x="137.16" y="30.48" rot="R90"/>
 <instance part="GND2" gate="1" x="137.16" y="-17.78"/>
+<instance part="FRAME1" gate="G$1" x="-73.66" y="-76.2"/>
 </instances>
 <busses>
 </busses>
@@ -24454,6 +24540,7 @@ Source: www.kingbright.com</description>
 <instance part="R4" gate="G$1" x="-71.12" y="48.26" rot="R180"/>
 <instance part="GND8" gate="1" x="-78.74" y="-10.16"/>
 <instance part="R5" gate="G$1" x="-15.24" y="5.08" rot="R180"/>
+<instance part="FRAME2" gate="G$1" x="-165.1" y="-71.12"/>
 </instances>
 <busses>
 </busses>
@@ -24584,6 +24671,7 @@ Source: www.kingbright.com</description>
 <instance part="X1" gate="G$1" x="30.48" y="-12.7"/>
 <instance part="GND6" gate="1" x="0" y="-30.48"/>
 <instance part="P+3" gate="1" x="71.12" y="0"/>
+<instance part="FRAME3" gate="G$1" x="-88.9" y="-101.6"/>
 </instances>
 <busses>
 </busses>
@@ -24636,6 +24724,7 @@ Source: www.kingbright.com</description>
 <instance part="C5" gate="G$1" x="-10.16" y="20.32" rot="R270"/>
 <instance part="C6" gate="G$1" x="43.18" y="33.02" rot="R180"/>
 <instance part="C7" gate="G$1" x="43.18" y="17.78"/>
+<instance part="FRAME4" gate="G$1" x="-114.3" y="-76.2"/>
 </instances>
 <busses>
 </busses>
@@ -24784,6 +24873,7 @@ Source: www.kingbright.com</description>
 <instance part="R34" gate="G$1" x="33.02" y="-81.28"/>
 <instance part="R35" gate="G$1" x="33.02" y="-88.9"/>
 <instance part="P+15" gate="1" x="43.18" y="99.06"/>
+<instance part="FRAME5" gate="G$1" x="-71.12" y="-134.62"/>
 </instances>
 <busses>
 </busses>
@@ -25240,6 +25330,7 @@ Source: www.kingbright.com</description>
 <instance part="S7" gate="1" x="68.58" y="20.32" rot="R270"/>
 <instance part="S8" gate="1" x="68.58" y="33.02" rot="R270"/>
 <instance part="GND4" gate="1" x="116.84" y="-66.04"/>
+<instance part="FRAME6" gate="G$1" x="-53.34" y="-101.6"/>
 </instances>
 <busses>
 </busses>
@@ -25439,6 +25530,7 @@ Source: www.kingbright.com</description>
 <instance part="R9" gate="G$1" x="60.96" y="-93.98"/>
 <instance part="P+13" gate="1" x="50.8" y="-78.74"/>
 <instance part="GND16" gate="1" x="50.8" y="-124.46"/>
+<instance part="FRAME7" gate="G$1" x="-45.72" y="-172.72"/>
 </instances>
 <busses>
 </busses>
