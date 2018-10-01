@@ -368,6 +368,7 @@ UsedLibrary="/media/data/software/eagle/libraries/sparkfun/SparkFun-PowerIC.lbr"
 UsedLibrary="/media/data/software/eagle/libraries/sparkfun/SparkFun-Resistors.lbr"
 UsedLibrary="/media/data/software/eagle/libraries/sparkfun/SparkFun-RF.lbr"
 UsedLibrary="/media/data/software/eagle/libraries/sparkfun/SparkFun-Sensors.lbr"
+UsedLibrary="lsd2016.lbr"
 
 [Win_1]
 Type="Control Panel"
