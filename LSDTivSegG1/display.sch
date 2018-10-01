@@ -24844,7 +24844,7 @@ DIN A4, landscape with location and doc. field</description>
 <instance part="C4" gate="G$1" x="-10.16" y="30.48" rot="R270"/>
 <instance part="C5" gate="G$1" x="-10.16" y="20.32" rot="R270"/>
 <instance part="C6" gate="G$1" x="43.18" y="33.02" rot="R180"/>
-<instance part="C7" gate="G$1" x="43.18" y="17.78"/>
+<instance part="C7" gate="G$1" x="43.18" y="15.24" rot="R180"/>
 <instance part="FRAME4" gate="G$1" x="-114.3" y="-76.2"/>
 </instances>
 <busses>
@@ -24894,21 +24894,6 @@ DIN A4, landscape with location and doc. field</description>
 <label x="-15.24" y="5.08" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$8" class="0">
-<segment>
-<pinref part="IC2" gate="G$1" pin="V-"/>
-<pinref part="C7" gate="G$1" pin="+"/>
-<wire x1="25.4" y1="22.86" x2="43.18" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="22.86" x2="43.18" y2="20.32" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="GND" class="0">
-<segment>
-<pinref part="C7" gate="G$1" pin="-"/>
-<pinref part="GND5" gate="1" pin="GND"/>
-<wire x1="43.18" y1="12.7" x2="43.18" y2="-5.08" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="RS232RX" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="T1OUT"/>
@@ -24936,6 +24921,21 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="C6" gate="G$1" pin="+"/>
 <wire x1="25.4" y1="27.94" x2="43.18" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="27.94" x2="43.18" y2="30.48" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="V-"/>
+<wire x1="25.4" y1="22.86" x2="43.18" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="C7" gate="G$1" pin="-"/>
+<wire x1="43.18" y1="22.86" x2="43.18" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="GND" class="0">
+<segment>
+<pinref part="C7" gate="G$1" pin="+"/>
+<pinref part="GND5" gate="1" pin="GND"/>
+<wire x1="43.18" y1="12.7" x2="43.18" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
