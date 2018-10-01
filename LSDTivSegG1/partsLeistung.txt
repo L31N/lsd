@@ -1,0 +1,4 @@
+https://www.reichelt.de/elko-radial-10-f-50-v-rm-2-5-105-c-1000-h-20-fc-a-10u-50-p228384.html?&trstct=pol_0 C1 C2 C3
+https://www.reichelt.de/gleichrichterdiode-50-v-1-a-do-41-1n-4001-p1723.html?&trstct=pol_1 D1 D2
+https://www.reichelt.de/zenerdiode-18-v-5-w-do-204af-do-29-zd-5w-18v-p145342.html?&trstct=pos_0 D3,4,5,6
+https://www.reichelt.de/keramik-kondensator-100n-kerko-100n-p9265.html?r=1 C4 C5
