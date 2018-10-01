@@ -1,0 +1,7 @@
+Fachbandstecker Male: WSL 10G
+Flachbandstecker Female: PFL 10
+Flachband: AWG 28-10G 3M
+LED 3mm blau: RND 135-00014
+Spannungsregler: LF33ABV
+Quarts: 16,0000-HC18
+Mosfet : BS 170
