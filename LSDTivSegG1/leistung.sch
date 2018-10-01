@@ -34967,6 +34967,8 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME8" library="frames" deviceset="FRAME_A_L" device=""/>
+<part name="LED3" library="led" deviceset="LED" device="3MM" value="blau"/>
+<part name="R34" library="rcl" deviceset="R-EU_" device="0207/10" value="100"/>
 </parts>
 <sheets>
 <sheet>
@@ -34999,6 +35001,8 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <instance part="X2" gate="-1" x="208.28" y="109.22" rot="R180"/>
 <instance part="X2" gate="-2" x="208.28" y="114.3" rot="R180"/>
 <instance part="DC1" gate="G$1" x="71.12" y="35.56"/>
+<instance part="LED3" gate="G$1" x="152.4" y="17.78"/>
+<instance part="R34" gate="G$1" x="152.4" y="30.48" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -35135,6 +35139,12 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <wire x1="86.36" y1="38.1" x2="88.9" y2="38.1" width="0.1524" layer="91"/>
 <label x="88.9" y="38.1" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="R34" gate="G$1" pin="2"/>
+<wire x1="152.4" y1="35.56" x2="152.4" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="38.1" x2="144.78" y2="38.1" width="0.1524" layer="91"/>
+<label x="144.78" y="38.1" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="GND_OUT_CTL" class="0">
 <segment>
@@ -35146,6 +35156,13 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <pinref part="DC1" gate="G$1" pin="-VOUT"/>
 <wire x1="88.9" y1="33.02" x2="86.36" y2="33.02" width="0.1524" layer="91"/>
 <label x="88.9" y="33.02" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="LED3" gate="G$1" pin="C"/>
+<wire x1="152.4" y1="12.7" x2="152.4" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="10.16" x2="147.32" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="10.16" x2="144.78" y2="10.16" width="0.1524" layer="91"/>
+<label x="144.78" y="10.16" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DIRL_IN_CTL" class="0">
@@ -35181,6 +35198,13 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <pinref part="X1" gate="-4" pin="S"/>
 <wire x1="104.14" y1="91.44" x2="101.6" y2="91.44" width="0.1524" layer="91"/>
 <label x="101.6" y="91.44" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="N$27" class="0">
+<segment>
+<pinref part="LED3" gate="G$1" pin="A"/>
+<wire x1="152.4" y1="25.4" x2="152.4" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="R34" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
