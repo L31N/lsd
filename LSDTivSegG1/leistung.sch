@@ -9719,6 +9719,78 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <text x="-0.785" y="-1.865" size="1.27" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.305" y1="-0.15" x2="0.305" y2="0.15" layer="51"/>
 </package>
+<package name="PT-10" urn="urn:adsk.eagle:footprint:23297/1" library_version="5">
+<description>&lt;b&gt;Trimm Potentiometer&lt;/b&gt;</description>
+<wire x1="-3.175" y1="-4.064" x2="3.175" y2="-4.064" width="0.127" layer="21" curve="-288.924644"/>
+<wire x1="3.175" y1="-4.064" x2="3.175" y2="-5.715" width="0.127" layer="51"/>
+<wire x1="-3.175" y1="-5.715" x2="-3.175" y2="-4.064" width="0.127" layer="51"/>
+<wire x1="-2.794" y1="-5.715" x2="-2.794" y2="-3.175" width="0.127" layer="51"/>
+<wire x1="-2.794" y1="-3.175" x2="-1.905" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-1.905" y1="-2.54" x2="-0.635" y2="-3.175" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="-3.175" x2="-0.635" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="-0.635" y1="-4.445" x2="-1.27" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-4.445" x2="-1.27" y2="-5.715" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-5.715" x2="1.27" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-4.445" x2="0.635" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="0.635" y1="-4.445" x2="0.635" y2="-3.175" width="0.127" layer="21"/>
+<wire x1="0.635" y1="-3.175" x2="1.905" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="1.905" y1="-2.54" x2="2.794" y2="-3.175" width="0.127" layer="21"/>
+<wire x1="2.794" y1="-3.175" x2="2.794" y2="-5.715" width="0.127" layer="51"/>
+<wire x1="-3.175" y1="-5.715" x2="3.175" y2="-5.715" width="0.127" layer="51"/>
+<wire x1="0.889" y1="1.397" x2="-0.127" y2="0.381" width="0.127" layer="21"/>
+<wire x1="-0.127" y1="0.381" x2="-0.508" y2="0.762" width="0.127" layer="21"/>
+<wire x1="-0.508" y1="0.762" x2="-0.508" y2="0" width="0.127" layer="21"/>
+<wire x1="-0.508" y1="0" x2="-1.397" y2="-0.889" width="0.127" layer="21"/>
+<wire x1="1.397" y1="0.889" x2="0.381" y2="-0.127" width="0.127" layer="21"/>
+<wire x1="0.381" y1="-0.127" x2="0.762" y2="-0.508" width="0.127" layer="21"/>
+<wire x1="0.762" y1="-0.508" x2="0" y2="-0.508" width="0.127" layer="21"/>
+<wire x1="0" y1="-0.508" x2="-0.889" y2="-1.397" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="1.8034" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="2.794" width="0.0508" layer="21"/>
+<pad name="1" x="-2.54" y="-5.08" drill="1.016" diameter="1.778" shape="octagon"/>
+<pad name="2" x="2.54" y="-5.08" drill="1.016" diameter="1.778" shape="octagon"/>
+<pad name="3" x="0" y="5.08" drill="1.016" diameter="1.778" shape="octagon"/>
+<text x="-3.175" y="6.35" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.048" y="-7.62" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="PT-10S" urn="urn:adsk.eagle:footprint:23298/1" library_version="5">
+<description>&lt;b&gt;Trimm Potentiometer&lt;/b&gt;</description>
+<wire x1="-1.905" y1="-1.27" x2="-1.27" y2="-1.905" width="0.127" layer="51"/>
+<wire x1="-1.27" y1="-1.905" x2="1.27" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="1.27" y1="-1.905" x2="1.905" y2="-1.27" width="0.127" layer="51"/>
+<wire x1="-4.445" y1="-1.27" x2="4.445" y2="-1.27" width="0.127" layer="51"/>
+<wire x1="-0.635" y1="3.175" x2="-0.635" y2="2.54" width="0.127" layer="21"/>
+<wire x1="0.635" y1="2.54" x2="0.635" y2="3.175" width="0.127" layer="21"/>
+<wire x1="-4.445" y1="3.175" x2="4.445" y2="3.175" width="0.127" layer="21"/>
+<wire x1="5.08" y1="2.54" x2="4.445" y2="3.175" width="0.127" layer="21"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-4.445" y1="-1.27" x2="-5.08" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-4.445" y1="3.175" x2="-5.08" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="2.54" x2="5.08" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-0.635" x2="5.08" y2="-0.635" width="0.127" layer="51"/>
+<wire x1="-5.08" y1="-0.635" x2="-5.08" y2="2.54" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-0.635" x2="4.445" y2="-1.27" width="0.127" layer="21"/>
+<pad name="1" x="-2.54" y="-1.27" drill="1.016" diameter="1.778" shape="octagon"/>
+<pad name="2" x="2.54" y="-1.27" drill="1.016" diameter="1.778" shape="octagon"/>
+<pad name="3" x="0" y="1.27" drill="1.016" diameter="1.778" shape="octagon"/>
+<text x="-2.54" y="3.7846" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.54" y="-4.2164" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+<package name="PT-SPIN" urn="urn:adsk.eagle:footprint:23299/1" library_version="5">
+<description>&lt;b&gt;Trimm Potentiometer&lt;/b&gt;</description>
+<wire x1="-8.89" y1="-2.54" x2="8.89" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="8.89" y1="-2.54" x2="8.89" y2="2.54" width="0.127" layer="21"/>
+<wire x1="8.89" y1="2.54" x2="-8.89" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-8.89" y1="2.54" x2="-8.89" y2="-2.54" width="0.127" layer="21"/>
+<pad name="3" x="-1.27" y="1.27" drill="0.8128" diameter="1.524" shape="octagon"/>
+<pad name="2" x="6.35" y="-1.27" drill="0.8128" diameter="1.524" shape="octagon"/>
+<pad name="1" x="-6.35" y="-1.27" drill="0.8128" diameter="1.524" shape="octagon"/>
+<text x="-3.175" y="3.175" size="1.778" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.08" y="-1.778" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-9.525" y1="-1.27" x2="-8.89" y2="1.27" layer="21"/>
+<rectangle x1="-10.16" y1="0.381" x2="-9.525" y2="1.27" layer="21"/>
+<rectangle x1="-10.16" y1="-1.27" x2="-9.525" y2="-0.381" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="CT3216" urn="urn:adsk.eagle:package:23327/2" type="model" library_version="3">
@@ -12082,6 +12154,24 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <packageinstance name="HPC0201"/>
 </packageinstances>
 </package3d>
+<package3d name="PT-10" urn="urn:adsk.eagle:package:23786/1" type="box" library_version="5">
+<description>Trimm Potentiometer</description>
+<packageinstances>
+<packageinstance name="PT-10"/>
+</packageinstances>
+</package3d>
+<package3d name="PT-10S" urn="urn:adsk.eagle:package:23785/1" type="box" library_version="5">
+<description>Trimm Potentiometer</description>
+<packageinstances>
+<packageinstance name="PT-10S"/>
+</packageinstances>
+</package3d>
+<package3d name="PT-SPIN" urn="urn:adsk.eagle:package:23782/1" type="box" library_version="5">
+<description>Trimm Potentiometer</description>
+<packageinstances>
+<packageinstance name="PT-SPIN"/>
+</packageinstances>
+</package3d>
 </packages3d>
 <symbols>
 <symbol name="CPOL" urn="urn:adsk.eagle:symbol:22801/1" library_version="3">
@@ -12115,6 +12205,24 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <rectangle x1="-2.032" y1="-1.016" x2="2.032" y2="-0.508" layer="94"/>
 <pin name="1" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+</symbol>
+<symbol name="POTEURO" urn="urn:adsk.eagle:symbol:23296/3" library_version="5">
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.778" x2="2.667" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.778" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-1.27" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
+<text x="2.54" y="-5.08" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="3" x="0" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<polygon width="0.1524" layer="94">
+<vertex x="2.54" y="2.54"/>
+<vertex x="2.667" y="3.81"/>
+<vertex x="1.778" y="2.921"/>
+</polygon>
 </symbol>
 </symbols>
 <devicesets>
@@ -16918,6 +17026,81 @@ Source: http://www.vishay.com/docs/10129/hpc0201a.pdf</description>
 <pinmap gate="G$1" pin="1" pinorder="1"/>
 <pinmap gate="G$1" pin="2" pinorder="2"/>
 </pinmapping>
+</spice>
+</deviceset>
+<deviceset name="POTENTIOMETER_" urn="urn:adsk.eagle:component:23800/2" prefix="R" uservalue="yes" library_version="5">
+<description>&lt;b&gt;Potentiometer&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="POTEURO" x="5.08" y="0"/>
+</gates>
+<devices>
+<device name="PT-10" package="PT-10">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+<connect gate="1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23786/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="SPICEMODEL" value="POT" constant="no"/>
+<attribute name="SPICEPREFIX" value="X" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="PT-10S" package="PT-10S">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+<connect gate="1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23785/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="SPICEMODEL" value="POT" constant="no"/>
+<attribute name="SPICEPREFIX" value="X" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="PT_SPIN" package="PT-SPIN">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+<connect gate="1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23782/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="SPICEMODEL" value="POT" constant="no"/>
+<attribute name="SPICEPREFIX" value="X" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+<spice>
+<pinmapping spiceprefix="X">
+<pinmap gate="1" pin="1" pinorder="1"/>
+<pinmap gate="1" pin="2" pinorder="2"/>
+<pinmap gate="1" pin="3" pinorder="3"/>
+</pinmapping>
+<model name="POT">
+********************************************
+* Autodesk Eagle - Spice Model File
+* Date: 9/25/17
+* Variable resistor PIN1 ---/\/\/\/\--- PIN2
+*                               |
+*                              PIN3
+********************************************
+.subckt POT 1 2 3
+R1 1 3 {val*var/100}
+R2 3 2 {val-val*var/100}
+.ends POT</model>
 </spice>
 </deviceset>
 </devicesets>
@@ -34817,8 +35000,6 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <part name="C16" library="rcl" deviceset="C-EU" device="025-025X050" value="100n"/>
 <part name="P+8" library="supply1" deviceset="+24V" device=""/>
 <part name="R16" library="rcl" deviceset="R-EU_" device="0207/10" value="82k"/>
-<part name="R10" library="rcl" deviceset="R-EU_" device="0207/10" value="16k"/>
-<part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME7" library="frames" deviceset="FRAME_A_L" device=""/>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -34826,6 +35007,7 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-025X050" package3d_urn="urn:adsk.eagle:package:23629/2" value="100nF"/>
 <part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-025X050" package3d_urn="urn:adsk.eagle:package:23629/2" value="100nF"/>
+<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="POTENTIOMETER_" device="PT-10" package3d_urn="urn:adsk.eagle:package:23786/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -36073,10 +36255,9 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <instance part="C16" gate="G$1" x="96.52" y="99.06" rot="R270"/>
 <instance part="P+8" gate="1" x="111.76" y="121.92"/>
 <instance part="R16" gate="G$1" x="111.76" y="106.68" rot="R90"/>
-<instance part="R10" gate="G$1" x="111.76" y="88.9" rot="R90"/>
-<instance part="GND17" gate="1" x="111.76" y="78.74"/>
 <instance part="FRAME7" gate="G$1" x="0" y="0"/>
 <instance part="FRAME7" gate="G$2" x="172.72" y="0"/>
+<instance part="R10" gate="1" x="111.76" y="88.9" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -36102,18 +36283,17 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <wire x1="124.46" y1="96.52" x2="91.44" y2="96.52" width="0.1524" layer="91"/>
 <pinref part="GND13" gate="1" pin="GND"/>
 <wire x1="91.44" y1="96.52" x2="88.9" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="96.52" x2="88.9" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="96.52" x2="88.9" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="C10" gate="G$1" pin="1"/>
+<wire x1="88.9" y1="88.9" x2="88.9" y2="81.28" width="0.1524" layer="91"/>
 <wire x1="88.9" y1="96.52" x2="88.9" y2="101.6" width="0.1524" layer="91"/>
 <junction x="88.9" y="96.52"/>
 <pinref part="C16" gate="G$1" pin="2"/>
 <wire x1="91.44" y1="99.06" x2="91.44" y2="96.52" width="0.1524" layer="91"/>
 <junction x="91.44" y="96.52"/>
-</segment>
-<segment>
-<pinref part="R10" gate="G$1" pin="1"/>
-<pinref part="GND17" gate="1" pin="GND"/>
-<wire x1="111.76" y1="83.82" x2="111.76" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="R10" gate="1" pin="2"/>
+<wire x1="106.68" y1="88.9" x2="88.9" y2="88.9" width="0.1524" layer="91"/>
+<junction x="88.9" y="88.9"/>
 </segment>
 </net>
 <net name="BAT_PWM_IN" class="0">
@@ -36141,9 +36321,9 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <wire x1="124.46" y1="101.6" x2="111.76" y2="101.6" width="0.1524" layer="91"/>
 <label x="116.84" y="101.6" size="1.778" layer="95"/>
 <pinref part="R16" gate="G$1" pin="1"/>
-<pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="111.76" y1="101.6" x2="111.76" y2="93.98" width="0.1524" layer="91"/>
 <junction x="111.76" y="101.6"/>
+<pinref part="R10" gate="1" pin="3"/>
 </segment>
 </net>
 <net name="+24V" class="0">
