@@ -24277,7 +24277,10 @@ DIN A4, landscape with location and doc. field</description>
 <instance part="Q1" gate="G$1" x="0" y="40.64" rot="R180"/>
 <instance part="C2" gate="G$1" x="5.08" y="10.16"/>
 <instance part="C3" gate="G$1" x="-5.08" y="10.16"/>
-<instance part="SV1" gate="G$1" x="33.02" y="-40.64"/>
+<instance part="SV1" gate="G$1" x="33.02" y="-40.64" smashed="yes" rot="R180">
+<attribute name="VALUE" x="36.83" y="-30.48" size="1.778" layer="96" rot="R180"/>
+<attribute name="NAME" x="36.83" y="-49.022" size="1.778" layer="95" rot="R180"/>
+</instance>
 <instance part="P+2" gate="1" x="55.88" y="-27.94"/>
 <instance part="GND3" gate="1" x="55.88" y="-55.88"/>
 <instance part="P+14" gate="1" x="66.04" y="91.44"/>
@@ -24313,9 +24316,9 @@ DIN A4, landscape with location and doc. field</description>
 <label x="0" y="63.5" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="G$1" pin="6"/>
+<pinref part="SV1" gate="G$1" pin="5"/>
 <wire x1="25.4" y1="-40.64" x2="12.7" y2="-40.64" width="0.1524" layer="91"/>
-<label x="12.7" y="-40.64" size="1.778" layer="95"/>
+<label x="12.7" y="-40.64" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -24343,10 +24346,10 @@ DIN A4, landscape with location and doc. field</description>
 <junction x="-7.62" y="22.86"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="G$1" pin="9"/>
 <pinref part="P+2" gate="1" pin="+5V"/>
-<wire x1="40.64" y1="-35.56" x2="55.88" y2="-35.56" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="-35.56" x2="55.88" y2="-30.48" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="G$1" pin="2"/>
+<wire x1="40.64" y1="-35.56" x2="55.88" y2="-35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+14" gate="1" pin="+5V"/>
@@ -24391,20 +24394,20 @@ DIN A4, landscape with location and doc. field</description>
 <junction x="-22.86" y="-12.7"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="G$1" pin="7"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="40.64" y1="-38.1" x2="55.88" y2="-38.1" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="-38.1" x2="55.88" y2="-40.64" width="0.1524" layer="91"/>
-<pinref part="SV1" gate="G$1" pin="5"/>
 <wire x1="55.88" y1="-40.64" x2="55.88" y2="-43.18" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="-43.18" x2="55.88" y2="-45.72" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="-45.72" x2="55.88" y2="-53.34" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="G$1" pin="4"/>
+<wire x1="55.88" y1="-38.1" x2="40.64" y2="-38.1" width="0.1524" layer="91"/>
+<pinref part="SV1" gate="G$1" pin="6"/>
 <wire x1="40.64" y1="-40.64" x2="55.88" y2="-40.64" width="0.1524" layer="91"/>
 <junction x="55.88" y="-40.64"/>
-<pinref part="SV1" gate="G$1" pin="3"/>
+<pinref part="SV1" gate="G$1" pin="8"/>
 <wire x1="40.64" y1="-43.18" x2="55.88" y2="-43.18" width="0.1524" layer="91"/>
 <junction x="55.88" y="-43.18"/>
-<pinref part="SV1" gate="G$1" pin="1"/>
+<pinref part="SV1" gate="G$1" pin="10"/>
 <wire x1="40.64" y1="-45.72" x2="55.88" y2="-45.72" width="0.1524" layer="91"/>
 <junction x="55.88" y="-45.72"/>
 </segment>
@@ -24461,9 +24464,9 @@ DIN A4, landscape with location and doc. field</description>
 <label x="76.2" y="0" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="G$1" pin="4"/>
+<pinref part="SV1" gate="G$1" pin="7"/>
 <wire x1="25.4" y1="-43.18" x2="12.7" y2="-43.18" width="0.1524" layer="91"/>
-<label x="12.7" y="-43.18" size="1.778" layer="95"/>
+<label x="12.7" y="-43.18" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="MISO" class="0">
@@ -24473,9 +24476,9 @@ DIN A4, landscape with location and doc. field</description>
 <label x="76.2" y="2.54" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="G$1" pin="2"/>
+<pinref part="SV1" gate="G$1" pin="9"/>
 <wire x1="25.4" y1="-45.72" x2="12.7" y2="-45.72" width="0.1524" layer="91"/>
-<label x="12.7" y="-45.72" size="1.778" layer="95"/>
+<label x="12.7" y="-45.72" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
@@ -24485,9 +24488,9 @@ DIN A4, landscape with location and doc. field</description>
 <label x="76.2" y="5.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="G$1" pin="10"/>
+<pinref part="SV1" gate="G$1" pin="1"/>
 <wire x1="25.4" y1="-35.56" x2="12.7" y2="-35.56" width="0.1524" layer="91"/>
-<label x="12.7" y="-35.56" size="1.778" layer="95"/>
+<label x="12.7" y="-35.56" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="RXD" class="0">

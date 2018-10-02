@@ -18225,7 +18225,7 @@ by exp-lbrs.ulp</description>
 <instance part="GND1" gate="1" x="-12.7" y="-5.08"/>
 <instance part="P+2" gate="1" x="-35.56" y="116.84"/>
 <instance part="+3V1" gate="G$1" x="-55.88" y="116.84"/>
-<instance part="C7" gate="G$1" x="-55.88" y="30.48"/>
+<instance part="C7" gate="G$1" x="-55.88" y="33.02"/>
 <instance part="FRAME1" gate="G$1" x="-93.98" y="-33.02"/>
 <instance part="GND7" gate="1" x="104.14" y="2.54"/>
 <instance part="R9" gate="G$1" x="-35.56" y="99.06" rot="R270"/>
@@ -18291,7 +18291,7 @@ by exp-lbrs.ulp</description>
 <wire x1="-27.94" y1="17.78" x2="-27.94" y2="27.94" width="0.1524" layer="91"/>
 <junction x="-27.94" y="17.78"/>
 <pinref part="C7" gate="G$1" pin="2"/>
-<wire x1="-55.88" y1="25.4" x2="-55.88" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="-55.88" y1="27.94" x2="-55.88" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="-55.88" y1="17.78" x2="-35.56" y2="17.78" width="0.1524" layer="91"/>
 <junction x="-35.56" y="17.78"/>
 </segment>
@@ -18346,7 +18346,7 @@ by exp-lbrs.ulp</description>
 <wire x1="-55.88" y1="114.3" x2="-55.88" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="1"/>
 <pinref part="IC4" gate="G$1" pin="AREF"/>
-<wire x1="-55.88" y1="68.58" x2="-55.88" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="-55.88" y1="68.58" x2="-55.88" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="68.58" x2="-55.88" y2="68.58" width="0.1524" layer="91"/>
 <junction x="-55.88" y="68.58"/>
 </segment>
@@ -18641,14 +18641,14 @@ by exp-lbrs.ulp</description>
 <segment>
 <pinref part="R27" gate="G$1" pin="1"/>
 <wire x1="165.1" y1="154.94" x2="162.56" y2="154.94" width="0.1524" layer="91"/>
-<label x="162.56" y="154.94" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="162.56" y="154.94" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="MOTOR_PWM_L_CTL" class="0">
 <segment>
 <pinref part="R26" gate="G$1" pin="1"/>
 <wire x1="165.1" y1="172.72" x2="162.56" y2="172.72" width="0.1524" layer="91"/>
-<label x="162.56" y="172.72" size="1.778" layer="95" rot="R180" xref="yes"/>
+<label x="162.56" y="172.72" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DIRR_LST" class="0">
