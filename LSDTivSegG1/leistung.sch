@@ -34901,15 +34901,14 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <part name="FRAME3" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="DINA4_L" device=""/>
 <part name="IC2" library="irs" deviceset="IR2184" device="D"/>
 <part name="IC3" library="irs" deviceset="IR2184" device="D"/>
-<part name="Q1" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="PMOSFET_N" device="TO220BV" package3d_urn="urn:adsk.eagle:package:29484/3"/>
-<part name="Q3" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="PMOSFET_N" device="TO220BV" package3d_urn="urn:adsk.eagle:package:29484/3"/>
-<part name="Q2" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="PMOSFET_N" device="TO220BV" package3d_urn="urn:adsk.eagle:package:29484/3"/>
-<part name="Q4" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="PMOSFET_N" device="TO220BV" package3d_urn="urn:adsk.eagle:package:29484/3"/>
-<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E2.5-5" package3d_urn="urn:adsk.eagle:package:23344/1" value="10u"/>
+<part name="Q1" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="PMOSFET_N" device="TO220BV" package3d_urn="urn:adsk.eagle:package:29484/3" value="IRFB3077"/>
+<part name="Q3" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="PMOSFET_N" device="TO220BV" package3d_urn="urn:adsk.eagle:package:29484/3" value="IRFB3077"/>
+<part name="Q2" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="PMOSFET_N" device="TO220BV" package3d_urn="urn:adsk.eagle:package:29484/3" value="IRFB3077"/>
+<part name="Q4" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="PMOSFET_N" device="TO220BV" package3d_urn="urn:adsk.eagle:package:29484/3" value="IRFB3077"/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E2.5-5" package3d_urn="urn:adsk.eagle:package:23344/1" value="1u"/>
 <part name="C3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E2.5-5" package3d_urn="urn:adsk.eagle:package:23344/1" value="1u"/>
-<part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4004" device="" package3d_urn="urn:adsk.eagle:package:43336/1" value="1N4001"/>
-<part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4004" device="" package3d_urn="urn:adsk.eagle:package:43336/1" value="1N4001"/>
+<part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4004" device="" package3d_urn="urn:adsk.eagle:package:43336/1" value="1N4002"/>
+<part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4004" device="" package3d_urn="urn:adsk.eagle:package:43336/1" value="1N4002"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/1" value="10"/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/1" value="10"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/1" value="10"/>
@@ -34918,10 +34917,10 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/1" value="47k"/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/1" value="47k"/>
 <part name="R8" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/1" value="47k"/>
-<part name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="ZD-10" package3d_urn="urn:adsk.eagle:package:43408/1" value="18"/>
-<part name="D4" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="ZD-10" package3d_urn="urn:adsk.eagle:package:43408/1" value="18"/>
-<part name="D5" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="ZD-10" package3d_urn="urn:adsk.eagle:package:43408/1" value="18"/>
-<part name="D6" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="ZD-10" package3d_urn="urn:adsk.eagle:package:43408/1" value="18"/>
+<part name="D3" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="ZD-10" package3d_urn="urn:adsk.eagle:package:43408/1" value="ZD-5W_18V"/>
+<part name="D4" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="ZD-10" package3d_urn="urn:adsk.eagle:package:43408/1" value="ZD-5W_18V"/>
+<part name="D5" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="ZD-10" package3d_urn="urn:adsk.eagle:package:43408/1" value="ZD-5W_18V"/>
+<part name="D6" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="ZD-10" package3d_urn="urn:adsk.eagle:package:43408/1" value="ZD-5W_18V"/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-025X050" package3d_urn="urn:adsk.eagle:package:23629/2" value="100n"/>
 <part name="C5" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-025X050" package3d_urn="urn:adsk.eagle:package:23629/2" value="100n"/>
 <part name="IC4" library="40xx" library_urn="urn:adsk.eagle:library:80" deviceset="4081" device="N" package3d_urn="urn:adsk.eagle:package:820/2"/>
@@ -34933,15 +34932,14 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <part name="FRAME5" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="DINA4_L" device=""/>
 <part name="IC7" library="irs" deviceset="IR2184" device="D"/>
 <part name="IC8" library="irs" deviceset="IR2184" device="D"/>
-<part name="Q9" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="PMOSFET_N" device="TO220BV" package3d_urn="urn:adsk.eagle:package:29484/3"/>
-<part name="Q10" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="PMOSFET_N" device="TO220BV" package3d_urn="urn:adsk.eagle:package:29484/3"/>
-<part name="Q11" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="PMOSFET_N" device="TO220BV" package3d_urn="urn:adsk.eagle:package:29484/3"/>
-<part name="Q12" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="PMOSFET_N" device="TO220BV" package3d_urn="urn:adsk.eagle:package:29484/3"/>
-<part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E2.5-5" package3d_urn="urn:adsk.eagle:package:23344/1" value="10u"/>
+<part name="Q9" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="PMOSFET_N" device="TO220BV" package3d_urn="urn:adsk.eagle:package:29484/3" value="IRFB3077"/>
+<part name="Q10" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="PMOSFET_N" device="TO220BV" package3d_urn="urn:adsk.eagle:package:29484/3" value="IRFB3077"/>
+<part name="Q11" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="PMOSFET_N" device="TO220BV" package3d_urn="urn:adsk.eagle:package:29484/3" value="IRFB3077"/>
+<part name="Q12" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="PMOSFET_N" device="TO220BV" package3d_urn="urn:adsk.eagle:package:29484/3" value="IRFB3077"/>
 <part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E2.5-5" package3d_urn="urn:adsk.eagle:package:23344/1" value="1u"/>
 <part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E2.5-5" package3d_urn="urn:adsk.eagle:package:23344/1" value="1u"/>
-<part name="D13" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4004" device="" package3d_urn="urn:adsk.eagle:package:43336/1" value="1N4001"/>
-<part name="D14" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4004" device="" package3d_urn="urn:adsk.eagle:package:43336/1" value="1N4001"/>
+<part name="D13" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4004" device="" package3d_urn="urn:adsk.eagle:package:43336/1" value="1N4002"/>
+<part name="D14" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="1N4004" device="" package3d_urn="urn:adsk.eagle:package:43336/1" value="1N4002"/>
 <part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/1" value="10"/>
 <part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/1" value="10"/>
 <part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/1" value="10"/>
@@ -34950,10 +34948,10 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <part name="R22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/1" value="47k"/>
 <part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/1" value="47k"/>
 <part name="R24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/1" value="47k"/>
-<part name="D15" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="ZD-10" package3d_urn="urn:adsk.eagle:package:43408/1" value="18"/>
-<part name="D16" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="ZD-10" package3d_urn="urn:adsk.eagle:package:43408/1" value="18"/>
-<part name="D17" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="ZD-10" package3d_urn="urn:adsk.eagle:package:43408/1" value="18"/>
-<part name="D18" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="ZD-10" package3d_urn="urn:adsk.eagle:package:43408/1" value="18"/>
+<part name="D15" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="ZD-10" package3d_urn="urn:adsk.eagle:package:43408/1" value="ZD-5W_18V"/>
+<part name="D16" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="ZD-10" package3d_urn="urn:adsk.eagle:package:43408/1" value="ZD-5W_18V"/>
+<part name="D17" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="ZD-10" package3d_urn="urn:adsk.eagle:package:43408/1" value="ZD-5W_18V"/>
+<part name="D18" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="ZD-10" package3d_urn="urn:adsk.eagle:package:43408/1" value="ZD-5W_18V"/>
 <part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-025X050" package3d_urn="urn:adsk.eagle:package:23629/2" value="100n"/>
 <part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-025X050" package3d_urn="urn:adsk.eagle:package:23629/2" value="100n"/>
 <part name="P+1" library="hcontrol" deviceset="+5V" device=""/>
@@ -34966,7 +34964,7 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
-<part name="D7" library="diode" deviceset="SCHOTTKY-DIODE" device="CB417-15" value="1N 5711"/>
+<part name="D7" library="diode" deviceset="SCHOTTKY-DIODE" device="CB417-15" value="1N5822"/>
 <part name="C7" library="rcl" deviceset="CPOL-EU" device="E2.5-5V" value="100u"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" deviceset="+24V" device=""/>
@@ -34977,7 +34975,7 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <part name="R14" library="rcl" deviceset="R-EU_" device="0207/10" value="100"/>
 <part name="FRAME2" library="frames" deviceset="FRAME_A_L" device=""/>
 <part name="IC6" library="LM2576" deviceset="LM2576-T05A" device="" value="LM 2576 T15 "/>
-<part name="D8" library="diode" deviceset="SCHOTTKY-DIODE" device="CB429-15" value="1N 5711"/>
+<part name="D8" library="diode" deviceset="SCHOTTKY-DIODE" device="CB429-15" value="1N5822"/>
 <part name="C8" library="rcl" deviceset="CPOL-EU" device="E2.5-7" value="100u"/>
 <part name="L2" library="rcl" deviceset="L-EU" device="0204/5" value="100u"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
@@ -35007,7 +35005,15 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-025X050" package3d_urn="urn:adsk.eagle:package:23629/2" value="100nF"/>
 <part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-025X050" package3d_urn="urn:adsk.eagle:package:23629/2" value="100nF"/>
-<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="POTENTIOMETER_" device="PT-10" package3d_urn="urn:adsk.eagle:package:23786/1"/>
+<part name="R10" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="POTENTIOMETER_" device="PT-10" package3d_urn="urn:adsk.eagle:package:23786/1" value="20k"/>
+<part name="R11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/1" value="470k"/>
+<part name="R12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/1" value="470k"/>
+<part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/1" value="470k"/>
+<part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/1" value="470k"/>
+<part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E7.5-18" package3d_urn="urn:adsk.eagle:package:23379/1" value="4m7"/>
+<part name="C20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E7.5-18" package3d_urn="urn:adsk.eagle:package:23379/1" value="4m7"/>
+<part name="C1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E7.5-18" package3d_urn="urn:adsk.eagle:package:23379/1" value="4m7"/>
+<part name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E7.5-18" package3d_urn="urn:adsk.eagle:package:23379/1" value="4m7"/>
 </parts>
 <sheets>
 <sheet>
@@ -35016,7 +35022,6 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <text x="12.7" y="165.1" size="5.08" layer="97">Power-Connector</text>
 <text x="15.24" y="109.22" size="5.08" layer="97">Regelungsboard-Connector</text>
 <text x="152.4" y="165.1" size="5.08" layer="97">Fuses</text>
-<text x="119.38" y="96.52" size="1.778" layer="97">_CTL indicates position on LOW-Voltage Side of board</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="63.5" y="147.32"/>
@@ -35206,7 +35211,6 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <plain>
 <text x="7.62" y="167.64" size="5.08" layer="97">H-Bridge-1-Left</text>
 <text x="66.04" y="60.96" size="1.778" layer="97">Mosfets haben Freilaufdiode integriert 210A</text>
-<text x="152.4" y="142.24" size="1.778" layer="97">Mosfets IRFB3077</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -35217,26 +35221,29 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <instance part="Q3" gate="G$1" x="109.22" y="86.36"/>
 <instance part="Q2" gate="G$1" x="152.4" y="124.46" rot="MR0"/>
 <instance part="Q4" gate="G$1" x="152.4" y="86.36" rot="MR0"/>
-<instance part="C1" gate="G$1" x="129.54" y="91.44"/>
 <instance part="C2" gate="G$1" x="76.2" y="116.84"/>
 <instance part="C3" gate="G$1" x="185.42" y="116.84"/>
 <instance part="D1" gate="1" x="55.88" y="127"/>
 <instance part="D2" gate="1" x="208.28" y="127" rot="MR0"/>
 <instance part="R1" gate="G$1" x="93.98" y="121.92"/>
-<instance part="R2" gate="G$1" x="93.98" y="83.82"/>
-<instance part="R3" gate="G$1" x="170.18" y="83.82"/>
+<instance part="R2" gate="G$1" x="93.98" y="93.98"/>
+<instance part="R3" gate="G$1" x="170.18" y="93.98"/>
 <instance part="R4" gate="G$1" x="170.18" y="121.92"/>
 <instance part="R5" gate="G$1" x="157.48" y="111.76" rot="R90"/>
-<instance part="R6" gate="G$1" x="157.48" y="96.52" rot="R90"/>
-<instance part="R7" gate="G$1" x="106.68" y="96.52" rot="R90"/>
+<instance part="R6" gate="G$1" x="157.48" y="78.74" rot="R90"/>
+<instance part="R7" gate="G$1" x="106.68" y="76.2" rot="R90"/>
 <instance part="R8" gate="G$1" x="106.68" y="111.76" rot="R90"/>
 <instance part="D3" gate="G$1" x="99.06" y="111.76" rot="R90"/>
-<instance part="D4" gate="G$1" x="99.06" y="96.52" rot="R270"/>
-<instance part="D5" gate="G$1" x="165.1" y="96.52" rot="R270"/>
+<instance part="D4" gate="G$1" x="99.06" y="76.2" rot="R90"/>
+<instance part="D5" gate="G$1" x="165.1" y="76.2" rot="R90"/>
 <instance part="D6" gate="G$1" x="165.1" y="111.76" rot="R90"/>
 <instance part="C4" gate="G$1" x="2.54" y="109.22"/>
 <instance part="C5" gate="G$1" x="259.08" y="109.22"/>
 <instance part="GND22" gate="1" x="129.54" y="60.96"/>
+<instance part="R13" gate="G$1" x="40.64" y="99.06" rot="R90"/>
+<instance part="R25" gate="G$1" x="223.52" y="99.06" rot="R90"/>
+<instance part="C1" gate="G$1" x="127" y="93.98"/>
+<instance part="C19" gate="G$1" x="134.62" y="93.98"/>
 </instances>
 <busses>
 </busses>
@@ -35245,29 +35252,35 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <segment>
 <pinref part="Q1" gate="G$1" pin="D"/>
 <wire x1="111.76" y1="129.54" x2="111.76" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="134.62" x2="129.54" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="134.62" x2="127" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="Q2" gate="G$1" pin="D"/>
-<wire x1="129.54" y1="134.62" x2="149.86" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="127" y1="134.62" x2="129.54" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="134.62" x2="134.62" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="134.62" x2="149.86" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="134.62" x2="149.86" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="134.62" x2="129.54" y2="142.24" width="0.1524" layer="91"/>
 <junction x="129.54" y="134.62"/>
 <label x="129.54" y="142.24" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="C1" gate="G$1" pin="+"/>
-<wire x1="129.54" y1="93.98" x2="129.54" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="127" y1="96.52" x2="127" y2="134.62" width="0.1524" layer="91"/>
+<junction x="127" y="134.62"/>
+<pinref part="C19" gate="G$1" pin="+"/>
+<wire x1="134.62" y1="96.52" x2="134.62" y2="134.62" width="0.1524" layer="91"/>
+<junction x="134.62" y="134.62"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
 <pinref part="Q3" gate="G$1" pin="G"/>
-<wire x1="99.06" y1="83.82" x2="106.68" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="91.44" x2="106.68" y2="83.82" width="0.1524" layer="91"/>
-<junction x="106.68" y="83.82"/>
 <pinref part="R2" gate="G$1" pin="2"/>
-<pinref part="R7" gate="G$1" pin="1"/>
 <pinref part="D4" gate="G$1" pin="C"/>
-<wire x1="99.06" y1="93.98" x2="99.06" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="91.44" x2="99.06" y2="83.82" width="0.1524" layer="91"/>
-<junction x="99.06" y="83.82"/>
+<wire x1="99.06" y1="78.74" x2="99.06" y2="93.98" width="0.1524" layer="91"/>
+<junction x="99.06" y="93.98"/>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="106.68" y1="83.82" x2="106.68" y2="81.28" width="0.1524" layer="91"/>
+<junction x="106.68" y="83.82"/>
+<wire x1="99.06" y1="93.98" x2="106.68" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="93.98" x2="106.68" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -35300,22 +35313,21 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <net name="N$8" class="0">
 <segment>
 <pinref part="Q4" gate="G$1" pin="G"/>
-<wire x1="165.1" y1="83.82" x2="157.48" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="83.82" x2="154.94" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="91.44" x2="157.48" y2="83.82" width="0.1524" layer="91"/>
-<junction x="157.48" y="83.82"/>
+<pinref part="R6" gate="G$1" pin="2"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="165.1" y1="93.98" x2="157.48" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="93.98" x2="157.48" y2="83.82" width="0.1524" layer="91"/>
+<junction x="157.48" y="83.82"/>
 <pinref part="D5" gate="G$1" pin="C"/>
-<wire x1="165.1" y1="93.98" x2="165.1" y2="83.82" width="0.1524" layer="91"/>
-<junction x="165.1" y="83.82"/>
+<wire x1="165.1" y1="78.74" x2="165.1" y2="93.98" width="0.1524" layer="91"/>
+<junction x="165.1" y="93.98"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="LO"/>
 <wire x1="68.58" y1="93.98" x2="88.9" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="93.98" x2="88.9" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -35337,7 +35349,6 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 </net>
 <net name="N$12" class="0">
 <segment>
-<wire x1="175.26" y1="83.82" x2="175.26" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="IC3" gate="G$1" pin="LO"/>
 <wire x1="175.26" y1="93.98" x2="195.58" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
@@ -35347,12 +35358,12 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <segment>
 <pinref part="Q2" gate="G$1" pin="S"/>
 <pinref part="Q4" gate="G$1" pin="D"/>
-<wire x1="149.86" y1="119.38" x2="149.86" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="106.68" x2="149.86" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="119.38" x2="149.86" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="116.84" x2="149.86" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="104.14" x2="149.86" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="106.68" x2="139.7" y2="104.14" width="0.1524" layer="91"/>
-<junction x="149.86" y="106.68"/>
-<label x="139.7" y="104.14" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="149.86" y1="116.84" x2="142.24" y2="116.84" width="0.1524" layer="91"/>
+<junction x="149.86" y="116.84"/>
+<label x="142.24" y="116.84" size="1.778" layer="95" rot="R270" xref="yes"/>
 <pinref part="IC3" gate="G$1" pin="VS"/>
 <wire x1="149.86" y1="104.14" x2="157.48" y2="104.14" width="0.1524" layer="91"/>
 <junction x="149.86" y="104.14"/>
@@ -35364,14 +35375,10 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <junction x="185.42" y="104.14"/>
 <wire x1="157.48" y1="106.68" x2="157.48" y2="104.14" width="0.1524" layer="91"/>
 <junction x="157.48" y="104.14"/>
-<wire x1="157.48" y1="101.6" x2="157.48" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="R5" gate="G$1" pin="1"/>
-<pinref part="R6" gate="G$1" pin="2"/>
 <pinref part="D6" gate="G$1" pin="A"/>
 <wire x1="165.1" y1="109.22" x2="165.1" y2="104.14" width="0.1524" layer="91"/>
 <junction x="165.1" y="104.14"/>
-<pinref part="D5" gate="G$1" pin="A"/>
-<wire x1="165.1" y1="99.06" x2="165.1" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+15V" class="0">
@@ -35409,11 +35416,11 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <pinref part="Q3" gate="G$1" pin="D"/>
 <pinref part="Q1" gate="G$1" pin="S"/>
 <wire x1="111.76" y1="91.44" x2="111.76" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="104.14" x2="111.76" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="106.68" x2="111.76" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="106.68" x2="116.84" y2="111.76" width="0.1524" layer="91"/>
-<junction x="111.76" y="106.68"/>
-<label x="116.84" y="111.76" size="1.778" layer="95" xref="yes"/>
+<wire x1="111.76" y1="104.14" x2="111.76" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="116.84" x2="111.76" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="116.84" x2="119.38" y2="116.84" width="0.1524" layer="91"/>
+<junction x="111.76" y="116.84"/>
+<label x="119.38" y="116.84" size="1.778" layer="95" rot="R270" xref="yes"/>
 <pinref part="IC2" gate="G$1" pin="VS"/>
 <wire x1="68.58" y1="104.14" x2="76.2" y2="104.14" width="0.1524" layer="91"/>
 <junction x="111.76" y="104.14"/>
@@ -35425,11 +35432,7 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <junction x="76.2" y="104.14"/>
 <wire x1="106.68" y1="106.68" x2="106.68" y2="104.14" width="0.1524" layer="91"/>
 <junction x="106.68" y="104.14"/>
-<wire x1="106.68" y1="104.14" x2="106.68" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="2"/>
 <pinref part="R8" gate="G$1" pin="1"/>
-<pinref part="D4" gate="G$1" pin="A"/>
-<wire x1="99.06" y1="99.06" x2="99.06" y2="104.14" width="0.1524" layer="91"/>
 <junction x="99.06" y="104.14"/>
 <pinref part="D3" gate="G$1" pin="A"/>
 <wire x1="99.06" y1="104.14" x2="99.06" y2="109.22" width="0.1524" layer="91"/>
@@ -35457,52 +35460,30 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <junction x="195.58" y="119.38"/>
 </segment>
 </net>
-<net name="DIRL" class="0">
-<segment>
-<pinref part="IC2" gate="G$1" pin="IN"/>
-<wire x1="40.64" y1="109.22" x2="38.1" y2="109.22" width="0.1524" layer="91"/>
-<label x="38.1" y="109.22" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="MOTOR_L_ACTIVE" class="0">
-<segment>
-<pinref part="IC2" gate="G$1" pin="!SD"/>
-<wire x1="40.64" y1="104.14" x2="38.1" y2="104.14" width="0.1524" layer="91"/>
-<label x="38.1" y="104.14" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="IC3" gate="G$1" pin="!SD"/>
-<wire x1="223.52" y1="104.14" x2="226.06" y2="104.14" width="0.1524" layer="91"/>
-<label x="226.06" y="104.14" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="DIRL_INV" class="0">
-<segment>
-<pinref part="IC3" gate="G$1" pin="IN"/>
-<wire x1="223.52" y1="109.22" x2="226.06" y2="109.22" width="0.1524" layer="91"/>
-<label x="226.06" y="109.22" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="GND" class="0">
 <segment>
 <pinref part="Q3" gate="G$1" pin="S"/>
 <wire x1="111.76" y1="81.28" x2="111.76" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="71.12" x2="129.54" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="71.12" x2="149.86" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="71.12" x2="127" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="127" y1="71.12" x2="129.54" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="71.12" x2="134.62" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="71.12" x2="149.86" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="71.12" x2="149.86" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="Q4" gate="G$1" pin="S"/>
 <wire x1="129.54" y1="71.12" x2="129.54" y2="63.5" width="0.1524" layer="91"/>
 <junction x="129.54" y="71.12"/>
 <pinref part="IC2" gate="G$1" pin="COM"/>
 <wire x1="40.64" y1="93.98" x2="40.64" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="71.12" x2="111.76" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="71.12" x2="99.06" y2="71.12" width="0.1524" layer="91"/>
 <junction x="111.76" y="71.12"/>
 <pinref part="IC3" gate="G$1" pin="COM"/>
-<wire x1="149.86" y1="71.12" x2="223.52" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="71.12" x2="106.68" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="71.12" x2="111.76" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="71.12" x2="157.48" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="71.12" x2="165.1" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="71.12" x2="223.52" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="71.12" x2="223.52" y2="93.98" width="0.1524" layer="91"/>
 <junction x="149.86" y="71.12"/>
-<pinref part="C1" gate="G$1" pin="-"/>
-<wire x1="129.54" y1="86.36" x2="129.54" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="2"/>
 <wire x1="2.54" y1="104.14" x2="2.54" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="93.98" x2="40.64" y2="93.98" width="0.1524" layer="91"/>
@@ -35512,6 +35493,55 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <wire x1="259.08" y1="93.98" x2="223.52" y2="93.98" width="0.1524" layer="91"/>
 <junction x="223.52" y="93.98"/>
 <pinref part="GND22" gate="1" pin="GND"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<junction x="106.68" y="71.12"/>
+<pinref part="D4" gate="G$1" pin="A"/>
+<wire x1="99.06" y1="73.66" x2="99.06" y2="71.12" width="0.1524" layer="91"/>
+<junction x="99.06" y="71.12"/>
+<pinref part="D5" gate="G$1" pin="A"/>
+<wire x1="165.1" y1="73.66" x2="165.1" y2="71.12" width="0.1524" layer="91"/>
+<junction x="165.1" y="71.12"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="157.48" y1="73.66" x2="157.48" y2="71.12" width="0.1524" layer="91"/>
+<junction x="157.48" y="71.12"/>
+<pinref part="R13" gate="G$1" pin="1"/>
+<pinref part="R25" gate="G$1" pin="1"/>
+<pinref part="C1" gate="G$1" pin="-"/>
+<wire x1="127" y1="88.9" x2="127" y2="71.12" width="0.1524" layer="91"/>
+<junction x="127" y="71.12"/>
+<pinref part="C19" gate="G$1" pin="-"/>
+<wire x1="134.62" y1="88.9" x2="134.62" y2="71.12" width="0.1524" layer="91"/>
+<junction x="134.62" y="71.12"/>
+</segment>
+</net>
+<net name="ENABLE" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="!SD"/>
+<wire x1="223.52" y1="104.14" x2="226.06" y2="104.14" width="0.1524" layer="91"/>
+<label x="226.06" y="104.14" size="1.778" layer="95" xref="yes"/>
+<pinref part="R25" gate="G$1" pin="2"/>
+<junction x="223.52" y="104.14"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="!SD"/>
+<wire x1="40.64" y1="104.14" x2="38.1" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="R13" gate="G$1" pin="2"/>
+<junction x="40.64" y="104.14"/>
+<label x="38.1" y="104.14" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="IN_L" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="IN"/>
+<wire x1="40.64" y1="109.22" x2="38.1" y2="109.22" width="0.1524" layer="91"/>
+<label x="38.1" y="109.22" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="IN_L_INVD" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="IN"/>
+<wire x1="223.52" y1="109.22" x2="226.06" y2="109.22" width="0.1524" layer="91"/>
+<label x="226.06" y="109.22" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -35521,7 +35551,6 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <plain>
 <text x="7.62" y="167.64" size="5.08" layer="97">H-Bridge-2-Right</text>
 <text x="66.04" y="60.96" size="1.778" layer="97">Mosfets haben Freilaufdiode integriert 210A</text>
-<text x="152.4" y="142.24" size="1.778" layer="97">Mosfets IRFB3077</text>
 </plain>
 <instances>
 <instance part="FRAME5" gate="G$1" x="0" y="0"/>
@@ -35532,26 +35561,29 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <instance part="Q10" gate="G$1" x="109.22" y="86.36"/>
 <instance part="Q11" gate="G$1" x="152.4" y="124.46" rot="MR0"/>
 <instance part="Q12" gate="G$1" x="152.4" y="86.36" rot="MR0"/>
-<instance part="C11" gate="G$1" x="129.54" y="91.44"/>
 <instance part="C12" gate="G$1" x="76.2" y="116.84"/>
 <instance part="C13" gate="G$1" x="185.42" y="116.84"/>
 <instance part="D13" gate="1" x="55.88" y="127"/>
 <instance part="D14" gate="1" x="208.28" y="127" rot="MR0"/>
 <instance part="R17" gate="G$1" x="93.98" y="121.92"/>
-<instance part="R18" gate="G$1" x="93.98" y="83.82"/>
-<instance part="R19" gate="G$1" x="170.18" y="83.82"/>
+<instance part="R18" gate="G$1" x="93.98" y="93.98"/>
+<instance part="R19" gate="G$1" x="170.18" y="93.98"/>
 <instance part="R20" gate="G$1" x="170.18" y="121.92"/>
 <instance part="R21" gate="G$1" x="157.48" y="111.76" rot="R90"/>
-<instance part="R22" gate="G$1" x="157.48" y="96.52" rot="R90"/>
-<instance part="R23" gate="G$1" x="106.68" y="96.52" rot="R90"/>
+<instance part="R22" gate="G$1" x="157.48" y="76.2" rot="R90"/>
+<instance part="R23" gate="G$1" x="106.68" y="76.2" rot="R90"/>
 <instance part="R24" gate="G$1" x="106.68" y="111.76" rot="R90"/>
 <instance part="D15" gate="G$1" x="99.06" y="111.76" rot="R90"/>
-<instance part="D16" gate="G$1" x="99.06" y="96.52" rot="R270"/>
-<instance part="D17" gate="G$1" x="165.1" y="96.52" rot="R270"/>
+<instance part="D16" gate="G$1" x="99.06" y="76.2" rot="R90"/>
+<instance part="D17" gate="G$1" x="165.1" y="76.2" rot="R90"/>
 <instance part="D18" gate="G$1" x="165.1" y="111.76" rot="R90"/>
 <instance part="C14" gate="G$1" x="2.54" y="109.22"/>
 <instance part="C15" gate="G$1" x="259.08" y="109.22"/>
 <instance part="GND23" gate="1" x="129.54" y="60.96"/>
+<instance part="R11" gate="G$1" x="38.1" y="99.06" rot="R90"/>
+<instance part="R12" gate="G$1" x="226.06" y="99.06" rot="R90"/>
+<instance part="C11" gate="G$1" x="124.46" y="96.52"/>
+<instance part="C20" gate="G$1" x="134.62" y="96.52"/>
 </instances>
 <busses>
 </busses>
@@ -35560,15 +35592,21 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <segment>
 <pinref part="Q9" gate="G$1" pin="D"/>
 <wire x1="111.76" y1="129.54" x2="111.76" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="134.62" x2="129.54" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="134.62" x2="124.46" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="Q11" gate="G$1" pin="D"/>
-<wire x1="129.54" y1="134.62" x2="149.86" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="134.62" x2="129.54" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="134.62" x2="134.62" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="134.62" x2="149.86" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="134.62" x2="149.86" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="134.62" x2="129.54" y2="142.24" width="0.1524" layer="91"/>
 <junction x="129.54" y="134.62"/>
 <label x="129.54" y="142.24" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="C11" gate="G$1" pin="+"/>
-<wire x1="129.54" y1="93.98" x2="129.54" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="99.06" x2="124.46" y2="134.62" width="0.1524" layer="91"/>
+<junction x="124.46" y="134.62"/>
+<pinref part="C20" gate="G$1" pin="+"/>
+<wire x1="134.62" y1="99.06" x2="134.62" y2="134.62" width="0.1524" layer="91"/>
+<junction x="134.62" y="134.62"/>
 </segment>
 </net>
 <net name="+15V" class="0">
@@ -35623,20 +35661,6 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <junction x="195.58" y="119.38"/>
 </segment>
 </net>
-<net name="N$29" class="0">
-<segment>
-<pinref part="Q10" gate="G$1" pin="G"/>
-<wire x1="99.06" y1="83.82" x2="106.68" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="91.44" x2="106.68" y2="83.82" width="0.1524" layer="91"/>
-<junction x="106.68" y="83.82"/>
-<pinref part="R18" gate="G$1" pin="2"/>
-<pinref part="R23" gate="G$1" pin="1"/>
-<pinref part="D16" gate="G$1" pin="C"/>
-<wire x1="99.06" y1="93.98" x2="99.06" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="91.44" x2="99.06" y2="83.82" width="0.1524" layer="91"/>
-<junction x="99.06" y="83.82"/>
-</segment>
-</net>
 <net name="N$30" class="0">
 <segment>
 <pinref part="Q9" gate="G$1" pin="G"/>
@@ -35667,22 +35691,22 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <net name="N$32" class="0">
 <segment>
 <pinref part="Q12" gate="G$1" pin="G"/>
-<wire x1="165.1" y1="83.82" x2="157.48" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="83.82" x2="154.94" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="91.44" x2="157.48" y2="83.82" width="0.1524" layer="91"/>
-<junction x="157.48" y="83.82"/>
+<pinref part="R22" gate="G$1" pin="2"/>
+<wire x1="157.48" y1="83.82" x2="157.48" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="R19" gate="G$1" pin="1"/>
-<pinref part="R22" gate="G$1" pin="1"/>
 <pinref part="D17" gate="G$1" pin="C"/>
-<wire x1="165.1" y1="93.98" x2="165.1" y2="83.82" width="0.1524" layer="91"/>
-<junction x="165.1" y="83.82"/>
+<wire x1="165.1" y1="93.98" x2="165.1" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="83.82" x2="157.48" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="93.98" x2="165.1" y2="93.98" width="0.1524" layer="91"/>
+<junction x="157.48" y="83.82"/>
+<junction x="165.1" y="93.98"/>
 </segment>
 </net>
 <net name="N$33" class="0">
 <segment>
 <pinref part="IC7" gate="G$1" pin="LO"/>
 <wire x1="68.58" y1="93.98" x2="88.9" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="93.98" x2="88.9" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="R18" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -35704,17 +35728,9 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 </net>
 <net name="N$36" class="0">
 <segment>
-<wire x1="175.26" y1="83.82" x2="175.26" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="IC8" gate="G$1" pin="LO"/>
 <wire x1="175.26" y1="93.98" x2="195.58" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="R19" gate="G$1" pin="2"/>
-</segment>
-</net>
-<net name="DIRR_INV" class="0">
-<segment>
-<pinref part="IC8" gate="G$1" pin="IN"/>
-<wire x1="223.52" y1="109.22" x2="226.06" y2="109.22" width="0.1524" layer="91"/>
-<label x="226.06" y="109.22" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="MOTOR_R_+" class="0">
@@ -35722,11 +35738,11 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <pinref part="Q10" gate="G$1" pin="D"/>
 <pinref part="Q9" gate="G$1" pin="S"/>
 <wire x1="111.76" y1="91.44" x2="111.76" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="104.14" x2="111.76" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="106.68" x2="111.76" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="106.68" x2="116.84" y2="111.76" width="0.1524" layer="91"/>
-<junction x="111.76" y="106.68"/>
-<label x="116.84" y="111.76" size="1.778" layer="95" xref="yes"/>
+<wire x1="111.76" y1="104.14" x2="111.76" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="116.84" x2="111.76" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="116.84" x2="116.84" y2="116.84" width="0.1524" layer="91"/>
+<junction x="111.76" y="116.84"/>
+<label x="116.84" y="116.84" size="1.778" layer="95" rot="R270" xref="yes"/>
 <pinref part="IC7" gate="G$1" pin="VS"/>
 <wire x1="68.58" y1="104.14" x2="76.2" y2="104.14" width="0.1524" layer="91"/>
 <junction x="111.76" y="104.14"/>
@@ -35738,11 +35754,7 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <junction x="76.2" y="104.14"/>
 <wire x1="106.68" y1="106.68" x2="106.68" y2="104.14" width="0.1524" layer="91"/>
 <junction x="106.68" y="104.14"/>
-<wire x1="106.68" y1="104.14" x2="106.68" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="R23" gate="G$1" pin="2"/>
 <pinref part="R24" gate="G$1" pin="1"/>
-<pinref part="D16" gate="G$1" pin="A"/>
-<wire x1="99.06" y1="99.06" x2="99.06" y2="104.14" width="0.1524" layer="91"/>
 <junction x="99.06" y="104.14"/>
 <pinref part="D15" gate="G$1" pin="A"/>
 <wire x1="99.06" y1="104.14" x2="99.06" y2="109.22" width="0.1524" layer="91"/>
@@ -35752,12 +35764,12 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <segment>
 <pinref part="Q11" gate="G$1" pin="S"/>
 <pinref part="Q12" gate="G$1" pin="D"/>
-<wire x1="149.86" y1="119.38" x2="149.86" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="106.68" x2="149.86" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="119.38" x2="149.86" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="116.84" x2="149.86" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="104.14" x2="149.86" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="149.86" y1="106.68" x2="139.7" y2="104.14" width="0.1524" layer="91"/>
-<junction x="149.86" y="106.68"/>
-<label x="139.7" y="104.14" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="149.86" y1="116.84" x2="142.24" y2="116.84" width="0.1524" layer="91"/>
+<junction x="149.86" y="116.84"/>
+<label x="142.24" y="116.84" size="1.778" layer="95" rot="R270" xref="yes"/>
 <pinref part="IC8" gate="G$1" pin="VS"/>
 <wire x1="149.86" y1="104.14" x2="157.48" y2="104.14" width="0.1524" layer="91"/>
 <junction x="149.86" y="104.14"/>
@@ -35769,64 +35781,110 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <junction x="185.42" y="104.14"/>
 <wire x1="157.48" y1="106.68" x2="157.48" y2="104.14" width="0.1524" layer="91"/>
 <junction x="157.48" y="104.14"/>
-<wire x1="157.48" y1="101.6" x2="157.48" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="R21" gate="G$1" pin="1"/>
-<pinref part="R22" gate="G$1" pin="2"/>
 <pinref part="D18" gate="G$1" pin="A"/>
 <wire x1="165.1" y1="109.22" x2="165.1" y2="104.14" width="0.1524" layer="91"/>
 <junction x="165.1" y="104.14"/>
-<pinref part="D17" gate="G$1" pin="A"/>
-<wire x1="165.1" y1="99.06" x2="165.1" y2="104.14" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="DIRR" class="0">
-<segment>
-<pinref part="IC7" gate="G$1" pin="IN"/>
-<wire x1="40.64" y1="109.22" x2="38.1" y2="109.22" width="0.1524" layer="91"/>
-<label x="38.1" y="109.22" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="MOTOR_R_ACTIVE" class="0">
-<segment>
-<pinref part="IC7" gate="G$1" pin="!SD"/>
-<wire x1="40.64" y1="104.14" x2="38.1" y2="104.14" width="0.1524" layer="91"/>
-<label x="38.1" y="104.14" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="IC8" gate="G$1" pin="!SD"/>
-<wire x1="223.52" y1="104.14" x2="226.06" y2="104.14" width="0.1524" layer="91"/>
-<label x="226.06" y="104.14" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
 <pinref part="Q10" gate="G$1" pin="S"/>
 <wire x1="111.76" y1="81.28" x2="111.76" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="71.12" x2="129.54" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="71.12" x2="149.86" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="71.12" x2="124.46" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="71.12" x2="129.54" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="71.12" x2="134.62" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="71.12" x2="149.86" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="71.12" x2="149.86" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="Q12" gate="G$1" pin="S"/>
 <wire x1="129.54" y1="71.12" x2="129.54" y2="63.5" width="0.1524" layer="91"/>
 <junction x="129.54" y="71.12"/>
 <pinref part="IC7" gate="G$1" pin="COM"/>
-<wire x1="40.64" y1="93.98" x2="40.64" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="71.12" x2="111.76" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="93.98" x2="38.1" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="71.12" x2="99.06" y2="71.12" width="0.1524" layer="91"/>
 <junction x="111.76" y="71.12"/>
 <pinref part="IC8" gate="G$1" pin="COM"/>
-<wire x1="149.86" y1="71.12" x2="223.52" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="71.12" x2="106.68" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="71.12" x2="111.76" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="149.86" y1="71.12" x2="157.48" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="157.48" y1="71.12" x2="165.1" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="71.12" x2="223.52" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="71.12" x2="223.52" y2="93.98" width="0.1524" layer="91"/>
 <junction x="149.86" y="71.12"/>
-<pinref part="C11" gate="G$1" pin="-"/>
-<wire x1="129.54" y1="86.36" x2="129.54" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="C14" gate="G$1" pin="2"/>
 <wire x1="2.54" y1="104.14" x2="2.54" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="2.54" y1="93.98" x2="40.64" y2="93.98" width="0.1524" layer="91"/>
-<junction x="40.64" y="93.98"/>
+<wire x1="2.54" y1="93.98" x2="38.1" y2="93.98" width="0.1524" layer="91"/>
+<junction x="38.1" y="93.98"/>
 <pinref part="C15" gate="G$1" pin="2"/>
 <wire x1="259.08" y1="104.14" x2="259.08" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="259.08" y1="93.98" x2="223.52" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="93.98" x2="226.06" y2="93.98" width="0.1524" layer="91"/>
 <junction x="223.52" y="93.98"/>
 <pinref part="GND23" gate="1" pin="GND"/>
+<pinref part="R23" gate="G$1" pin="1"/>
+<junction x="106.68" y="71.12"/>
+<pinref part="R22" gate="G$1" pin="1"/>
+<junction x="157.48" y="71.12"/>
+<pinref part="D16" gate="G$1" pin="A"/>
+<wire x1="226.06" y1="93.98" x2="223.52" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="73.66" x2="99.06" y2="71.12" width="0.1524" layer="91"/>
+<junction x="99.06" y="71.12"/>
+<pinref part="D17" gate="G$1" pin="A"/>
+<wire x1="165.1" y1="73.66" x2="165.1" y2="71.12" width="0.1524" layer="91"/>
+<junction x="165.1" y="71.12"/>
+<pinref part="R11" gate="G$1" pin="1"/>
+<junction x="38.1" y="93.98"/>
+<pinref part="R12" gate="G$1" pin="1"/>
+<junction x="226.06" y="93.98"/>
+<wire x1="38.1" y1="93.98" x2="40.64" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="C11" gate="G$1" pin="-"/>
+<wire x1="124.46" y1="91.44" x2="124.46" y2="71.12" width="0.1524" layer="91"/>
+<junction x="124.46" y="71.12"/>
+<pinref part="C20" gate="G$1" pin="-"/>
+<wire x1="134.62" y1="91.44" x2="134.62" y2="71.12" width="0.1524" layer="91"/>
+<junction x="134.62" y="71.12"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="R18" gate="G$1" pin="2"/>
+<pinref part="D16" gate="G$1" pin="C"/>
+<wire x1="99.06" y1="93.98" x2="99.06" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="R23" gate="G$1" pin="2"/>
+<pinref part="Q10" gate="G$1" pin="G"/>
+<wire x1="106.68" y1="81.28" x2="106.68" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="93.98" x2="106.68" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="93.98" x2="106.68" y2="83.82" width="0.1524" layer="91"/>
+<junction x="99.06" y="93.98"/>
+<junction x="106.68" y="83.82"/>
+</segment>
+</net>
+<net name="IN_R" class="0">
+<segment>
+<pinref part="IC7" gate="G$1" pin="IN"/>
+<wire x1="40.64" y1="109.22" x2="38.1" y2="109.22" width="0.1524" layer="91"/>
+<label x="38.1" y="109.22" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="IN_R_INVD" class="0">
+<segment>
+<pinref part="IC8" gate="G$1" pin="IN"/>
+<wire x1="223.52" y1="109.22" x2="226.06" y2="109.22" width="0.1524" layer="91"/>
+<label x="226.06" y="109.22" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="ENABLE" class="0">
+<segment>
+<pinref part="IC7" gate="G$1" pin="!SD"/>
+<wire x1="40.64" y1="104.14" x2="38.1" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="R11" gate="G$1" pin="2"/>
+<junction x="38.1" y="104.14"/>
+<label x="38.1" y="104.14" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC8" gate="G$1" pin="!SD"/>
+<pinref part="R12" gate="G$1" pin="2"/>
+<wire x1="223.52" y1="104.14" x2="226.06" y2="104.14" width="0.1524" layer="91"/>
+<label x="226.06" y="104.14" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -35863,96 +35921,18 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <busses>
 </busses>
 <nets>
-<net name="MOTOR_L_ACTIVE" class="0">
-<segment>
-<pinref part="IC4" gate="A" pin="O"/>
-<wire x1="53.34" y1="152.4" x2="55.88" y2="152.4" width="0.1524" layer="91"/>
-<label x="55.88" y="152.4" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="MOTOR_R_ACTIVE" class="0">
-<segment>
-<pinref part="IC4" gate="B" pin="O"/>
-<wire x1="53.34" y1="134.62" x2="55.88" y2="134.62" width="0.1524" layer="91"/>
-<label x="55.88" y="134.62" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$15" class="0">
+<net name="IN_R_INVD" class="0">
 <segment>
 <pinref part="IC4" gate="C" pin="O"/>
 <wire x1="53.34" y1="116.84" x2="55.88" y2="116.84" width="0.1524" layer="91"/>
 <label x="55.88" y="116.84" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$16" class="0">
+<net name="IN_L_INVD" class="0">
 <segment>
 <pinref part="IC4" gate="D" pin="O"/>
 <wire x1="53.34" y1="99.06" x2="55.88" y2="99.06" width="0.1524" layer="91"/>
 <label x="55.88" y="99.06" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="ENABLE" class="0">
-<segment>
-<pinref part="IC4" gate="A" pin="I0"/>
-<wire x1="38.1" y1="154.94" x2="35.56" y2="154.94" width="0.1524" layer="91"/>
-<label x="35.56" y="154.94" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="IC4" gate="B" pin="I0"/>
-<wire x1="38.1" y1="137.16" x2="35.56" y2="137.16" width="0.1524" layer="91"/>
-<label x="35.56" y="137.16" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="MOTOR_PWM_L" class="0">
-<segment>
-<pinref part="IC4" gate="A" pin="I1"/>
-<wire x1="38.1" y1="149.86" x2="35.56" y2="149.86" width="0.1524" layer="91"/>
-<label x="35.56" y="149.86" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="MOTOR_PWM_R" class="0">
-<segment>
-<pinref part="IC4" gate="B" pin="I1"/>
-<wire x1="38.1" y1="132.08" x2="35.56" y2="132.08" width="0.1524" layer="91"/>
-<label x="35.56" y="132.08" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$21" class="0">
-<segment>
-<pinref part="IC4" gate="C" pin="I0"/>
-<wire x1="38.1" y1="119.38" x2="35.56" y2="119.38" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$22" class="0">
-<segment>
-<pinref part="IC4" gate="C" pin="I1"/>
-<wire x1="38.1" y1="114.3" x2="35.56" y2="114.3" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$23" class="0">
-<segment>
-<pinref part="IC4" gate="D" pin="I0"/>
-<wire x1="38.1" y1="101.6" x2="35.56" y2="101.6" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$24" class="0">
-<segment>
-<pinref part="IC4" gate="D" pin="I1"/>
-<wire x1="38.1" y1="96.52" x2="35.56" y2="96.52" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="DIRL_IN_INV" class="0">
-<segment>
-<pinref part="IC5" gate="A" pin="O"/>
-<wire x1="165.1" y1="154.94" x2="167.64" y2="154.94" width="0.1524" layer="91"/>
-<label x="167.64" y="154.94" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="DIRR_IN_INV" class="0">
-<segment>
-<pinref part="IC5" gate="B" pin="O"/>
-<wire x1="165.1" y1="142.24" x2="167.64" y2="142.24" width="0.1524" layer="91"/>
-<label x="167.64" y="142.24" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -36007,18 +35987,90 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <junction x="205.74" y="139.7"/>
 </segment>
 </net>
-<net name="DIRL" class="0">
+<net name="DIRR" class="0">
+<segment>
+<pinref part="IC4" gate="A" pin="I0"/>
+<wire x1="38.1" y1="154.94" x2="35.56" y2="154.94" width="0.1524" layer="91"/>
+<label x="35.56" y="154.94" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 <segment>
 <pinref part="IC5" gate="A" pin="I"/>
 <wire x1="144.78" y1="154.94" x2="142.24" y2="154.94" width="0.1524" layer="91"/>
 <label x="142.24" y="154.94" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="DIRR" class="0">
+<net name="MOTOR_PWM_R" class="0">
+<segment>
+<pinref part="IC4" gate="A" pin="I1"/>
+<wire x1="38.1" y1="149.86" x2="35.56" y2="149.86" width="0.1524" layer="91"/>
+<label x="35.56" y="149.86" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC4" gate="C" pin="I1"/>
+<wire x1="38.1" y1="114.3" x2="35.56" y2="114.3" width="0.1524" layer="91"/>
+<label x="35.56" y="114.3" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="IN_R" class="0">
+<segment>
+<pinref part="IC4" gate="A" pin="O"/>
+<wire x1="53.34" y1="152.4" x2="55.88" y2="152.4" width="0.1524" layer="91"/>
+<label x="55.88" y="152.4" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="DIRL" class="0">
+<segment>
+<pinref part="IC4" gate="B" pin="I0"/>
+<wire x1="38.1" y1="137.16" x2="35.56" y2="137.16" width="0.1524" layer="91"/>
+<label x="35.56" y="137.16" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 <segment>
 <pinref part="IC5" gate="B" pin="I"/>
 <wire x1="144.78" y1="142.24" x2="142.24" y2="142.24" width="0.1524" layer="91"/>
 <label x="142.24" y="142.24" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="MOTOR_PWM_L" class="0">
+<segment>
+<pinref part="IC4" gate="B" pin="I1"/>
+<wire x1="38.1" y1="132.08" x2="35.56" y2="132.08" width="0.1524" layer="91"/>
+<label x="35.56" y="132.08" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC4" gate="D" pin="I1"/>
+<wire x1="38.1" y1="96.52" x2="35.56" y2="96.52" width="0.1524" layer="91"/>
+<label x="35.56" y="96.52" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="DIRR_INV" class="0">
+<segment>
+<pinref part="IC5" gate="A" pin="O"/>
+<wire x1="165.1" y1="154.94" x2="170.18" y2="154.94" width="0.1524" layer="91"/>
+<label x="170.18" y="154.94" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC4" gate="C" pin="I0"/>
+<wire x1="38.1" y1="119.38" x2="35.56" y2="119.38" width="0.1524" layer="91"/>
+<label x="35.56" y="119.38" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="DIRL_INV" class="0">
+<segment>
+<pinref part="IC5" gate="B" pin="O"/>
+<wire x1="165.1" y1="142.24" x2="172.72" y2="142.24" width="0.1524" layer="91"/>
+<label x="170.18" y="142.24" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="IC4" gate="D" pin="I0"/>
+<wire x1="38.1" y1="101.6" x2="35.56" y2="101.6" width="0.1524" layer="91"/>
+<label x="35.56" y="101.6" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="IN_L" class="0">
+<segment>
+<pinref part="IC4" gate="B" pin="O"/>
+<wire x1="53.34" y1="134.62" x2="55.88" y2="134.62" width="0.1524" layer="91"/>
+<label x="55.88" y="134.62" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -36296,7 +36348,7 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <junction x="88.9" y="88.9"/>
 </segment>
 </net>
-<net name="BAT_PWM_IN" class="0">
+<net name="BAT_PWM" class="0">
 <segment>
 <pinref part="IC9" gate="G$1" pin="PB0/PCINT0/AIN0/OC0A/MOSI"/>
 <wire x1="124.46" y1="111.76" x2="116.84" y2="111.76" width="0.1524" layer="91"/>
