@@ -19049,15 +19049,15 @@ D = Direct mounting &lt;p&gt;
 <text x="0" y="-7.62" size="1.778" layer="27">&gt;VALUE</text>
 <text x="0" y="-5.08" size="1.778" layer="25">&gt;NAME</text>
 </package>
-<package name="BOARD">
+<package name="DISPLAY_FRAME">
 <wire x1="0" y1="0" x2="150" y2="0" width="0" layer="20"/>
 <wire x1="150" y1="0" x2="150" y2="100" width="0" layer="20"/>
 <wire x1="150" y1="100" x2="0" y2="100" width="0" layer="20"/>
 <wire x1="0" y1="100" x2="0" y2="0" width="0" layer="20"/>
-<hole x="9" y="5" drill="3.5"/>
-<hole x="9" y="95" drill="3.5"/>
-<hole x="141" y="95" drill="3.5"/>
-<hole x="141" y="5" drill="3.5"/>
+<hole x="29.32" y="6.27" drill="3.5"/>
+<hole x="29.21" y="60.96" drill="3.5"/>
+<hole x="121.92" y="60.96" drill="3.5"/>
+<hole x="121.95" y="6.27" drill="3.5"/>
 <hole x="4" y="95" drill="1"/>
 <hole x="146" y="5" drill="1"/>
 <hole x="4" y="5" drill="1"/>
@@ -19157,15 +19157,16 @@ D = Direct mounting &lt;p&gt;
 <pin name="LED+" x="-20.32" y="-45.72" length="middle" direction="pwr"/>
 <pin name="LED-" x="-20.32" y="-48.26" length="middle" direction="pwr"/>
 </symbol>
-<symbol name="PCB">
-<wire x1="-12.7" y1="-7.62" x2="-12.7" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="7.62" x2="12.7" y2="7.62" width="0.254" layer="94"/>
-<wire x1="12.7" y1="7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-7.62" x2="-12.7" y2="-7.62" width="0.254" layer="94"/>
-<circle x="-10.16" y="5.08" radius="0.567959375" width="0.254" layer="94"/>
-<circle x="-10.16" y="-5.08" radius="0.567959375" width="0.254" layer="94"/>
-<circle x="10.16" y="-5.08" radius="0.567959375" width="0.254" layer="94"/>
-<circle x="10.16" y="5.08" radius="0.567959375" width="0.254" layer="94"/>
+<symbol name="DISPLAY_FRAME">
+<wire x1="-45.72" y1="15.24" x2="-7.62" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="15.24" x2="15.24" y2="15.24" width="0.254" layer="94"/>
+<wire x1="15.24" y1="15.24" x2="15.24" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-45.72" y1="-17.78" x2="15.24" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-45.72" y1="-17.78" x2="-45.72" y2="15.24" width="0.254" layer="94"/>
+<circle x="-40.64" y="10.16" radius="2.54" width="0.254" layer="94"/>
+<circle x="-40.64" y="-12.7" radius="2.54" width="0.254" layer="94"/>
+<circle x="10.16" y="-12.7" radius="2.54" width="0.254" layer="94"/>
+<circle x="10.16" y="10.16" radius="2.54" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -19199,12 +19200,12 @@ D = Direct mounting &lt;p&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="PCB">
+<deviceset name="DISPLAY_FRAME">
 <gates>
-<gate name="G$1" symbol="PCB" x="0" y="0"/>
+<gate name="G$1" symbol="DISPLAY_FRAME" x="15.24" y="2.54"/>
 </gates>
 <devices>
-<device name="" package="BOARD">
+<device name="" package="DISPLAY_FRAME">
 <technologies>
 <technology name=""/>
 </technologies>
@@ -24392,7 +24393,6 @@ DIN A4, landscape with location and doc. field</description>
 <part name="R38" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/1" value="220R"/>
 <part name="R39" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/1" value="150R"/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U$2" library="lsd2016" deviceset="PCB" device=""/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
 <part name="FRAME3" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A4L-LOC" device=""/>
@@ -24407,6 +24407,7 @@ DIN A4, landscape with location and doc. field</description>
 <part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-025X050" package3d_urn="urn:adsk.eagle:package:23629/2"/>
 <part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="025-025X050" package3d_urn="urn:adsk.eagle:package:23629/2"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/10" package3d_urn="urn:adsk.eagle:package:23491/1" value="15k"/>
+<part name="U$2" library="lsd2016" deviceset="DISPLAY_FRAME" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -26324,7 +26325,7 @@ DIN A4, landscape with location and doc. field</description>
 <plain>
 </plain>
 <instances>
-<instance part="U$2" gate="G$1" x="12.7" y="7.62"/>
+<instance part="U$2" gate="G$1" x="15.24" y="0"/>
 </instances>
 <busses>
 </busses>
