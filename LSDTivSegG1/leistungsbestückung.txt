@@ -2,38 +2,104 @@ Partlist exported from D:/git/lsd/lsd/LSDTivSegG1/leistung.sch at 02-Oct-18 14:4
 
 Qty Value           Device                 Package          Parts                              Description                                                          MF MPN           OC_FARNELL OC_NEWARK SPICEMODEL SPICEPREFIX
 3                   FUSE                   FUSE             F1, F2, F3                         FUSE                                                                                                                             
+done
 
 1   057-010-1       057-010-1              057-010-1        X1                                 CONNECTOR                                                                             unknown    unknown                      
-   
+done
+
 8   10              R-EU_0207/7            0207/7           R1, R2, R3, R4, R17, R18, R19, R20 RESISTOR, European symbol                                                                                             R          
+done
+
 1   100             R-EU_0207/10           0207/10          R14                                RESISTOR, European symbol                                                                                                        
+alex
+
 1   1000u           CPOL-EUE2.5-5V         E2,5-4R          C6                                 POLARIZED CAPACITOR, European symbol                                                                                             
 1   1000u           CPOL-EUE5-13           E5-13            C9                                 POLARIZED CAPACITOR, European symbol                                                                                             
+alex
+
+
 2   100n            C-EU025-025X050        C025-025X050     C10, C16                           CAPACITOR, European symbol                                                                                                       
+alex 
+
+
 4   100n            C-EU025-025X050        C025-025X050     C4, C5, C14, C15                   CAPACITOR, European symbol                                                                                            C          
 2   100nF           C-EU025-025X050        C025-025X050     C17, C18                           CAPACITOR, European symbol                                                                                            C          
+-> Done
+
 1   100u            CPOL-EUE2.5-5V         E2,5-4R          C7                                 POLARIZED CAPACITOR, European symbol                                                                                             
 1   100u            CPOL-EUE2.5-7          E2,5-7           C8                                 POLARIZED CAPACITOR, European symbol                                                                                             
+alex
+
+
 2   100u            L-EU0204/5             0204/5           L1, L2                             INDUCTOR, European symbol                                                                                                        
+alex
+
 1   10k             R-EU_0207/10           0207/10          R9                                 RESISTOR, European symbol                                                                                                        
+alex
+
+
 4   1N4002          1N4004                 DO41-10          D1, D2, D13, D14                   DIODE                                                                                                                            
+done
+
+
 1   1N5822          SCHOTTKY-DIODECB417-15 CB417-15         D7                                 Schottky Diode                                                                                                                   
 1   1N5822          SCHOTTKY-DIODECB429-15 CB429-15         D8                                 Schottky Diode                                                                                                                   
+alex
+
 4   1u              CPOL-EUE2.5-5          E2,5-5           C2, C3, C12, C13                   POLARIZED CAPACITOR, European symbol                                                                                  C          
+done
+
+
 1   20k             POTENTIOMETER_PT-10    PT-10            R10                                Potentiometer                                                                                              POT        X          
+alex
+
+
 1   4069N           4069N                  DIL14            IC5                                Hex INVERTER                                                                                                                     
+done
+
 1   4081N           4081N                  DIL14            IC4                                Quad 2-input AND                                                                                                                 
+done
+
 4   470k            R-EU_0207/7            0207/7           R11, R12, R13, R25                 RESISTOR, European symbol                                                                                             R          
+done
+
+
 8   47k             R-EU_0207/7            0207/7           R5, R6, R7, R8, R21, R22, R23, R24 RESISTOR, European symbol                                                                                             R          
+done
+
 4   4m7             CPOL-EUE7.5-18         E7,5-18          C1, C11, C19, C20                  POLARIZED CAPACITOR, European symbol                                                                                  C          
+done
+
 1   680             R-EU_0207/10           0207/10          R15                                RESISTOR, European symbol                                                                                                        
+alex
+
 1   82k             R-EU_0207/10           0207/10          R16                                RESISTOR, European symbol                                                                                                        
+alex
+
 4   IR2184D         IR2184D                DIL08            IC2, IC3, IC7, IC8                                                                                                                                                  
+done
+
 8   IRFB3077        PMOSFET_NTO220BV       TO220BV          Q1, Q2, Q3, Q4, Q9, Q10, Q11, Q12  Power MOSFET N-Channel                                                                                                           
+done
+
+
 1   LM 2576 T15     LM2576-T05A            TO-220-5_IN-LINE IC6                                LM2576/LM2576HV Series                                                                                                           
+done
+
 1   LM 2576 T5,0    LM2576-T05A            TO-220-5_IN-LINE IC1                                LM2576/LM2576HV Series                                                                                                           
+done
+
 1   MKDSN1,5/2-5,08 MKDSN1,5/2-5,08        MKDSN1,5/2-5,08  X2                                 MKDSN 1,5/ 2-5,08 Printklemme                                                                                                    
+done
+
 1   POWER           POWER                  CON_POWER        U$1                                                                                                                                                                 
+fehlt
+
 1   TINY13-20PU     TINY13-20PU            DIL08            IC9                                8-bit AVR Microcontroller with 1K Bytes In-System Programmable Flash    ATTINY13-20PU 9171550    96K6521                         
+alex
+
 8   ZD-5W_18V       ZENER-DIODEZD-10       ZDIO-10          D3, D4, D5, D6, D15, D16, D17, D18 Z-Diode                                                                                                                          
+done
+
 2   blau            LED3MM                 LED3MM           LED1, LED2                         LED                                                                                                                              
+alex
