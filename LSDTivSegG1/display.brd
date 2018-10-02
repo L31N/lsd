@@ -2022,12 +2022,57 @@ D = Direct mounting &lt;p&gt;
 <rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="51"/>
 <rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
 </package>
+<package name="2X03" urn="urn:adsk.eagle:footprint:22348/1" library_version="3">
+<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
+<wire x1="-3.81" y1="-1.905" x2="-3.175" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-2.54" x2="-1.27" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-1.905" x2="-0.635" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="-2.54" x2="1.27" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="-1.905" x2="-3.81" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="1.905" x2="-3.175" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="2.54" x2="-1.905" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="2.54" x2="-1.27" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="1.905" x2="-0.635" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="2.54" x2="0.635" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="0.635" y1="2.54" x2="1.27" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="1.905" x2="-1.27" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="1.905" x2="1.27" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-0.635" y1="-2.54" x2="0.635" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="-2.54" x2="-1.905" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="-1.905" x2="1.905" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="-2.54" x2="3.81" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="1.905" x2="1.905" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="2.54" x2="3.175" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="2.54" x2="3.81" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="1.905" x2="3.81" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-2.54" x2="3.175" y2="-2.54" width="0.1524" layer="21"/>
+<pad name="1" x="-2.54" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="2" x="-2.54" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="3" x="0" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="4" x="0" y="1.27" drill="1.016" shape="octagon"/>
+<pad name="5" x="2.54" y="-1.27" drill="1.016" shape="octagon"/>
+<pad name="6" x="2.54" y="1.27" drill="1.016" shape="octagon"/>
+<text x="-3.81" y="3.175" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.81" y="-4.445" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-2.794" y1="-1.524" x2="-2.286" y2="-1.016" layer="51"/>
+<rectangle x1="-2.794" y1="1.016" x2="-2.286" y2="1.524" layer="51"/>
+<rectangle x1="-0.254" y1="1.016" x2="0.254" y2="1.524" layer="51"/>
+<rectangle x1="-0.254" y1="-1.524" x2="0.254" y2="-1.016" layer="51"/>
+<rectangle x1="2.286" y1="1.016" x2="2.794" y2="1.524" layer="51"/>
+<rectangle x1="2.286" y1="-1.524" x2="2.794" y2="-1.016" layer="51"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="1X02" urn="urn:adsk.eagle:package:22435/2" type="model" library_version="3">
 <description>PIN HEADER</description>
 <packageinstances>
 <packageinstance name="1X02"/>
+</packageinstances>
+</package3d>
+<package3d name="2X03" urn="urn:adsk.eagle:package:22462/2" type="model" library_version="3">
+<description>PIN HEADER</description>
+<packageinstances>
+<packageinstance name="2X03"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -2497,6 +2542,7 @@ design rules under a new name.</description>
 </element>
 <element name="U$2" library="lsd2016" package="BOARD" value="PCB" x="0" y="0"/>
 <element name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="1X02" package3d_urn="urn:adsk.eagle:package:22435/2" value="" x="-132.08" y="-5.08"/>
+<element name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" package="2X03" package3d_urn="urn:adsk.eagle:package:22462/2" value="" x="-139.7" y="-1.27"/>
 </elements>
 <signals>
 <signal name="VCC">
@@ -2866,14 +2912,18 @@ design rules under a new name.</description>
 <wire x1="-66.04" y1="58.42" x2="-123.19" y2="130.81" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RS232TX">
-<contactref element="X1" pad="3"/>
 <contactref element="IC2" pad="13"/>
-<wire x1="-121.92" y1="96.52" x2="-29.21" y2="67.31" width="0" layer="19" extent="1-1"/>
+<contactref element="JP2" pad="5"/>
+<contactref element="JP2" pad="2"/>
+<wire x1="-137.16" y1="-2.54" x2="-142.24" y2="0" width="0" layer="19" extent="1-1"/>
+<wire x1="-121.92" y1="96.52" x2="-142.24" y2="0" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RS232RX">
-<contactref element="X1" pad="4"/>
 <contactref element="IC2" pad="14"/>
-<wire x1="-124.46" y1="96.52" x2="-26.4668" y2="67.31" width="0" layer="19" extent="1-1"/>
+<contactref element="JP2" pad="1"/>
+<contactref element="JP2" pad="6"/>
+<wire x1="-137.16" y1="0" x2="-142.24" y2="-2.54" width="0" layer="19" extent="1-1"/>
+<wire x1="-124.46" y1="96.52" x2="-137.16" y2="0" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="C4" pad="+"/>
@@ -3234,6 +3284,16 @@ design rules under a new name.</description>
 <contactref element="IC2" pad="6"/>
 <contactref element="C7" pad="-"/>
 <wire x1="-119.38" y1="124.46" x2="-116.84" y2="88.9" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="RS232RX_CON">
+<contactref element="X1" pad="2"/>
+<contactref element="JP2" pad="3"/>
+<wire x1="-31.9532" y1="67.31" x2="-139.7" y2="-2.54" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="RS232TX_CON">
+<contactref element="X1" pad="3"/>
+<contactref element="JP2" pad="4"/>
+<wire x1="-29.21" y1="67.31" x2="-139.7" y2="0" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
