@@ -35113,13 +35113,6 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <label x="101.6" y="76.2" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="NC2" class="0">
-<segment>
-<pinref part="X1" gate="-10" pin="S"/>
-<wire x1="104.14" y1="68.58" x2="101.6" y2="68.58" width="0.1524" layer="91"/>
-<label x="101.6" y="68.58" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
 <net name="+24_HORN" class="0">
 <segment>
 <pinref part="F3" gate="G$1" pin="2"/>
@@ -35148,6 +35141,11 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <pinref part="X1" gate="-1" pin="S"/>
 <wire x1="58.42" y1="99.06" x2="53.34" y2="99.06" width="0.1524" layer="91"/>
 <label x="53.34" y="99.06" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="X1" gate="-10" pin="S"/>
+<wire x1="104.14" y1="68.58" x2="101.6" y2="68.58" width="0.1524" layer="91"/>
+<label x="101.6" y="68.58" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DIRL" class="0">
@@ -35438,28 +35436,6 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <wire x1="99.06" y1="104.14" x2="99.06" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VB" class="0">
-<segment>
-<pinref part="C2" gate="G$1" pin="+"/>
-<pinref part="IC2" gate="G$1" pin="VB"/>
-<wire x1="76.2" y1="119.38" x2="68.58" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="119.38" x2="68.58" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="D1" gate="1" pin="C"/>
-<wire x1="58.42" y1="127" x2="68.58" y2="127" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="127" x2="68.58" y2="119.38" width="0.1524" layer="91"/>
-<junction x="68.58" y="119.38"/>
-</segment>
-<segment>
-<pinref part="IC3" gate="G$1" pin="VB"/>
-<wire x1="195.58" y1="114.3" x2="195.58" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="C3" gate="G$1" pin="+"/>
-<wire x1="195.58" y1="119.38" x2="185.42" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="D2" gate="1" pin="C"/>
-<wire x1="205.74" y1="127" x2="195.58" y2="127" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="127" x2="195.58" y2="119.38" width="0.1524" layer="91"/>
-<junction x="195.58" y="119.38"/>
-</segment>
-</net>
 <net name="GND" class="0">
 <segment>
 <pinref part="Q3" gate="G$1" pin="S"/>
@@ -35542,6 +35518,32 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <pinref part="IC3" gate="G$1" pin="IN"/>
 <wire x1="223.52" y1="109.22" x2="226.06" y2="109.22" width="0.1524" layer="91"/>
 <label x="226.06" y="109.22" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="VB1" class="0">
+<segment>
+<pinref part="C2" gate="G$1" pin="+"/>
+<pinref part="IC2" gate="G$1" pin="VB"/>
+<wire x1="76.2" y1="119.38" x2="68.58" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="119.38" x2="68.58" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="D1" gate="1" pin="C"/>
+<wire x1="58.42" y1="127" x2="68.58" y2="127" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="127" x2="68.58" y2="119.38" width="0.1524" layer="91"/>
+<junction x="68.58" y="119.38"/>
+<label x="68.58" y="124.46" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="VB2" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="VB"/>
+<wire x1="195.58" y1="114.3" x2="195.58" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="+"/>
+<wire x1="195.58" y1="119.38" x2="185.42" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="D2" gate="1" pin="C"/>
+<wire x1="205.74" y1="127" x2="195.58" y2="127" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="127" x2="195.58" y2="119.38" width="0.1524" layer="91"/>
+<junction x="195.58" y="119.38"/>
+<label x="195.58" y="127" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
@@ -35639,17 +35641,7 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <wire x1="223.52" y1="111.76" x2="259.08" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VB" class="0">
-<segment>
-<pinref part="C12" gate="G$1" pin="+"/>
-<pinref part="IC7" gate="G$1" pin="VB"/>
-<wire x1="76.2" y1="119.38" x2="68.58" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="119.38" x2="68.58" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="D13" gate="1" pin="C"/>
-<wire x1="58.42" y1="127" x2="68.58" y2="127" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="127" x2="68.58" y2="119.38" width="0.1524" layer="91"/>
-<junction x="68.58" y="119.38"/>
-</segment>
+<net name="VB4" class="0">
 <segment>
 <pinref part="IC8" gate="G$1" pin="VB"/>
 <wire x1="195.58" y1="114.3" x2="195.58" y2="119.38" width="0.1524" layer="91"/>
@@ -35659,6 +35651,7 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <wire x1="205.74" y1="127" x2="195.58" y2="127" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="127" x2="195.58" y2="119.38" width="0.1524" layer="91"/>
 <junction x="195.58" y="119.38"/>
+<label x="195.58" y="127" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$30" class="0">
@@ -35885,6 +35878,19 @@ Source: http://www.atmel.com/dyn/resources/prod_documents/2535S.pdf</description
 <pinref part="R12" gate="G$1" pin="2"/>
 <wire x1="223.52" y1="104.14" x2="226.06" y2="104.14" width="0.1524" layer="91"/>
 <label x="226.06" y="104.14" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="VB3" class="0">
+<segment>
+<pinref part="C12" gate="G$1" pin="+"/>
+<pinref part="IC7" gate="G$1" pin="VB"/>
+<wire x1="76.2" y1="119.38" x2="68.58" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="119.38" x2="68.58" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="D13" gate="1" pin="C"/>
+<wire x1="58.42" y1="127" x2="68.58" y2="127" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="127" x2="68.58" y2="119.38" width="0.1524" layer="91"/>
+<junction x="68.58" y="119.38"/>
+<label x="68.58" y="127" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
