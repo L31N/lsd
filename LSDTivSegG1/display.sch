@@ -26576,98 +26576,58 @@ DIN A4, landscape with location and doc. field</description>
 </net>
 <net name="BTN0" class="0">
 <segment>
-<pinref part="S8" gate="1" pin="P"/>
-<wire x1="63.5" y1="33.02" x2="58.42" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="S8" gate="1" pin="P1"/>
-<wire x1="58.42" y1="33.02" x2="35.56" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="30.48" x2="58.42" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="30.48" x2="58.42" y2="33.02" width="0.1524" layer="91"/>
-<junction x="58.42" y="33.02"/>
-<label x="35.56" y="33.02" size="1.778" layer="95"/>
+<wire x1="63.5" y1="30.48" x2="35.56" y2="30.48" width="0.1524" layer="91"/>
+<label x="35.56" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BTN1" class="0">
 <segment>
 <pinref part="S7" gate="1" pin="P"/>
-<wire x1="63.5" y1="20.32" x2="58.42" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="S7" gate="1" pin="P1"/>
-<wire x1="58.42" y1="20.32" x2="35.56" y2="20.32" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="17.78" x2="58.42" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="17.78" x2="58.42" y2="20.32" width="0.1524" layer="91"/>
-<junction x="58.42" y="20.32"/>
+<wire x1="63.5" y1="20.32" x2="35.56" y2="20.32" width="0.1524" layer="91"/>
 <label x="35.56" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BTN2" class="0">
 <segment>
-<pinref part="S6" gate="1" pin="P"/>
-<wire x1="63.5" y1="7.62" x2="58.42" y2="7.62" width="0.1524" layer="91"/>
 <pinref part="S6" gate="1" pin="P1"/>
-<wire x1="58.42" y1="7.62" x2="35.56" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="5.08" x2="58.42" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="5.08" x2="58.42" y2="7.62" width="0.1524" layer="91"/>
-<junction x="58.42" y="7.62"/>
-<label x="35.56" y="7.62" size="1.778" layer="95"/>
+<wire x1="63.5" y1="5.08" x2="35.56" y2="5.08" width="0.1524" layer="91"/>
+<label x="35.56" y="5.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BTN3" class="0">
 <segment>
 <pinref part="S5" gate="1" pin="P"/>
-<wire x1="63.5" y1="-5.08" x2="58.42" y2="-5.08" width="0.1524" layer="91"/>
-<pinref part="S5" gate="1" pin="P1"/>
-<wire x1="58.42" y1="-5.08" x2="35.56" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="-7.62" x2="58.42" y2="-7.62" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="-7.62" x2="58.42" y2="-5.08" width="0.1524" layer="91"/>
-<junction x="58.42" y="-5.08"/>
+<wire x1="63.5" y1="-5.08" x2="35.56" y2="-5.08" width="0.1524" layer="91"/>
 <label x="35.56" y="-5.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BTN4" class="0">
 <segment>
 <pinref part="S4" gate="1" pin="P"/>
-<wire x1="63.5" y1="-17.78" x2="58.42" y2="-17.78" width="0.1524" layer="91"/>
-<pinref part="S4" gate="1" pin="P1"/>
-<wire x1="58.42" y1="-17.78" x2="35.56" y2="-17.78" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="-20.32" x2="58.42" y2="-20.32" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="-20.32" x2="58.42" y2="-17.78" width="0.1524" layer="91"/>
-<junction x="58.42" y="-17.78"/>
+<wire x1="63.5" y1="-17.78" x2="35.56" y2="-17.78" width="0.1524" layer="91"/>
 <label x="35.56" y="-17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BTN5" class="0">
 <segment>
-<pinref part="S3" gate="1" pin="P"/>
-<wire x1="63.5" y1="-30.48" x2="58.42" y2="-30.48" width="0.1524" layer="91"/>
 <pinref part="S3" gate="1" pin="P1"/>
-<wire x1="58.42" y1="-30.48" x2="35.56" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="-33.02" x2="58.42" y2="-33.02" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="-33.02" x2="58.42" y2="-30.48" width="0.1524" layer="91"/>
-<junction x="58.42" y="-30.48"/>
-<label x="35.56" y="-30.48" size="1.778" layer="95"/>
+<wire x1="63.5" y1="-33.02" x2="35.56" y2="-33.02" width="0.1524" layer="91"/>
+<label x="35.56" y="-33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BTN6" class="0">
 <segment>
 <pinref part="S2" gate="1" pin="P"/>
-<wire x1="63.5" y1="-43.18" x2="58.42" y2="-43.18" width="0.1524" layer="91"/>
-<pinref part="S2" gate="1" pin="P1"/>
-<wire x1="58.42" y1="-43.18" x2="35.56" y2="-43.18" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="-45.72" x2="58.42" y2="-45.72" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="-45.72" x2="58.42" y2="-43.18" width="0.1524" layer="91"/>
-<junction x="58.42" y="-43.18"/>
+<wire x1="63.5" y1="-43.18" x2="35.56" y2="-43.18" width="0.1524" layer="91"/>
 <label x="35.56" y="-43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BTN7" class="0">
 <segment>
-<pinref part="S1" gate="1" pin="P"/>
-<wire x1="63.5" y1="-55.88" x2="58.42" y2="-55.88" width="0.1524" layer="91"/>
 <pinref part="S1" gate="1" pin="P1"/>
-<wire x1="58.42" y1="-55.88" x2="35.56" y2="-55.88" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="-58.42" x2="58.42" y2="-58.42" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="-58.42" x2="58.42" y2="-55.88" width="0.1524" layer="91"/>
-<junction x="58.42" y="-55.88"/>
-<label x="35.56" y="-55.88" size="1.778" layer="95"/>
+<wire x1="63.5" y1="-58.42" x2="35.56" y2="-58.42" width="0.1524" layer="91"/>
+<label x="35.56" y="-58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
