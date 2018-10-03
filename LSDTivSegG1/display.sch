@@ -26977,28 +26977,6 @@ DIN A4, landscape with location and doc. field</description>
 <label x="53.34" y="-99.06" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SDL" class="0">
-<segment>
-<pinref part="IC3" gate="G$1" pin="SCL"/>
-<wire x1="-2.54" y1="17.78" x2="-20.32" y2="17.78" width="0.1524" layer="91"/>
-<label x="-20.32" y="17.78" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC4" gate="G$1" pin="SCL"/>
-<wire x1="71.12" y1="17.78" x2="53.34" y2="17.78" width="0.1524" layer="91"/>
-<label x="53.34" y="17.78" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC5" gate="G$1" pin="SCL"/>
-<wire x1="71.12" y1="-40.64" x2="53.34" y2="-40.64" width="0.1524" layer="91"/>
-<label x="53.34" y="-40.64" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="IC6" gate="G$1" pin="SCL"/>
-<wire x1="71.12" y1="-101.6" x2="53.34" y2="-101.6" width="0.1524" layer="91"/>
-<label x="53.34" y="-101.6" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="BTN0" class="0">
 <segment>
 <pinref part="IC3" gate="G$1" pin="P0"/>
@@ -27242,6 +27220,28 @@ DIN A4, landscape with location and doc. field</description>
 <pinref part="IC6" gate="G$1" pin="P7"/>
 <wire x1="93.98" y1="-111.76" x2="104.14" y2="-111.76" width="0.1524" layer="91"/>
 <label x="99.06" y="-111.76" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SCL" class="0">
+<segment>
+<pinref part="IC6" gate="G$1" pin="SCL"/>
+<wire x1="71.12" y1="-101.6" x2="53.34" y2="-101.6" width="0.1524" layer="91"/>
+<label x="53.34" y="-101.6" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="SCL"/>
+<wire x1="71.12" y1="-40.64" x2="53.34" y2="-40.64" width="0.1524" layer="91"/>
+<label x="53.34" y="-40.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC4" gate="G$1" pin="SCL"/>
+<wire x1="71.12" y1="17.78" x2="53.34" y2="17.78" width="0.1524" layer="91"/>
+<label x="53.34" y="17.78" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="SCL"/>
+<wire x1="-2.54" y1="17.78" x2="-20.32" y2="17.78" width="0.1524" layer="91"/>
+<label x="-20.32" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
