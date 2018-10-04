@@ -127,7 +127,7 @@
 <wire x1="0" y1="100" x2="0" y2="0" width="0" layer="20"/>
 <rectangle x1="50.8" y1="0" x2="60.96" y2="100.33" layer="151"/>
 <rectangle x1="50.8" y1="0" x2="101.6" y2="100.33" layer="51"/>
-<dimension x1="77.47" y1="-1.27" x2="50.8" y2="-1.27" x3="64.135" y3="-6.350003125" textsize="1.778" layer="1"/>
+<dimension x1="101.6" y1="-1.27" x2="50.8" y2="-1.27" x3="76.2" y3="-6.350003125" textsize="1.778" layer="1"/>
 </plain>
 <libraries>
 <library name="irs">
