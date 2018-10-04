@@ -128,10 +128,10 @@
 <text x="102.67863125" y="98.95908125" size="1.4224" layer="1" font="vector" ratio="20" rot="SR180">S6</text>
 <text x="110.29863125" y="98.95908125" size="1.4224" layer="1" font="vector" ratio="20" rot="SR180">S7</text>
 <text x="117.91863125" y="98.95908125" size="1.4224" layer="1" font="vector" ratio="20" rot="SR180">S8</text>
-<text x="25.4" y="97.79" size="1.4224" layer="1" font="vector" ratio="20" rot="SR180">LSD-1-DSP-D-T</text>
-<text x="8.89" y="97.79" size="1.4224" layer="16" font="vector" ratio="20" rot="SMR180">LSD-1-DSP-D-B</text>
-<text x="24.13" y="91.44" size="1.4224" layer="29" font="vector" ratio="20" rot="SR180">LSD-1-DSP-D-TSTOP</text>
-<text x="2.54" y="91.44" size="1.4224" layer="30" font="vector" ratio="20" rot="SMR180">LSD-1-DSP-D-BSTOP</text>
+<text x="25.4" y="95.25" size="1.6764" layer="1" font="vector" ratio="20" rot="SR180">LSD-1-DSP-D-T</text>
+<text x="6.35" y="95.25" size="1.6764" layer="16" font="vector" ratio="20" rot="SMR180">LSD-1-DSP-D-B</text>
+<text x="26.67" y="92.71" size="1.6764" layer="29" font="vector" ratio="20" rot="SR180">LSD-1-DSP-D-TSTOP</text>
+<text x="1.27" y="92.71" size="1.6764" layer="30" font="vector" ratio="20" rot="SMR180">LSD-1-DSP-D-BSTOP</text>
 </plain>
 <libraries>
 <library name="rcl" urn="urn:adsk.eagle:library:334">
@@ -4317,7 +4317,7 @@ design rules under a new name.</description>
 <wire x1="71.12" y1="76.2" x2="73.66" y2="76.2" width="0.4064" layer="1"/>
 <via x="73.66" y="76.2" extent="1-16" drill="0.9" shape="octagon"/>
 <wire x1="73.66" y1="76.2" x2="73.66" y2="78.74" width="0.4064" layer="16"/>
-<wire x1="68.58" y1="82.55" x2="70.9168" y2="84.8868" width="0.4064" layer="1"/>
+<wire x1="70.9168" y1="84.8868" x2="68.58" y2="82.55" width="0.4064" layer="1"/>
 <wire x1="70.9168" y1="84.8868" x2="70.9168" y2="86.36" width="0.4064" layer="1"/>
 </signal>
 <signal name="RS232TX_CON">
@@ -4510,6 +4510,25 @@ design rules under a new name.</description>
 <mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
 <mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
 </mfgpreviewcolors>
+<errors>
+<approved hash="3,1,eeb0f737fd28e4af"/>
+<approved hash="3,1,33952c1226033984"/>
+<approved hash="3,1,1c86c701cd7216f5"/>
+<approved hash="3,1,23db325c384d29ca"/>
+<approved hash="3,1,da5bb9dcb3cdd04a"/>
+<approved hash="3,1,834b5ccc573c88bb"/>
+<approved hash="3,1,c9a188268217c390"/>
+<approved hash="3,1,97054e8244f29d75"/>
+<approved hash="3,1,6697fab3fed762f3"/>
+<approved hash="3,16,9b5b6fcd6b509fc6"/>
+<approved hash="2,20,28812f0b877f80f5"/>
+<approved hash="2,20,ee79ec1dba03a369"/>
+<approved hash="2,20,2d4d2a2782538539"/>
+<approved hash="2,20,7e0d764e0997759f"/>
+<approved hash="3,16,6be4140214e96b0f"/>
+<approved hash="3,16,111b3f04636b1e5d"/>
+<approved hash="3,16,dd29040b41321de7"/>
+</errors>
 </board>
 </drawing>
 <compatibility>
