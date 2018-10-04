@@ -2948,28 +2948,28 @@ design rules under a new name.</description>
 <attribute name="NAME" x="127.635" y="24.765" size="1.27" layer="26" ratio="10" rot="MR0"/>
 <attribute name="VALUE" x="127.635" y="22.86" size="1.27" layer="28" ratio="10" rot="MR0"/>
 </element>
-<element name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="" x="116.84" y="96.52" rot="MR90">
+<element name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="116.84" y="96.52" rot="MR90">
 <attribute name="SPICEPREFIX" value="R" x="116.84" y="96.52" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="R40" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="" x="109.22" y="96.52" rot="MR90">
+<element name="R40" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="109.22" y="96.52" rot="MR90">
 <attribute name="SPICEPREFIX" value="R" x="109.22" y="96.52" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="R41" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="" x="101.6" y="96.52" rot="MR90">
+<element name="R41" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="101.6" y="96.52" rot="MR90">
 <attribute name="SPICEPREFIX" value="R" x="101.6" y="96.52" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="R42" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="" x="93.98" y="96.52" rot="MR90">
+<element name="R42" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="93.98" y="96.52" rot="MR90">
 <attribute name="SPICEPREFIX" value="R" x="93.98" y="96.52" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="R43" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="" x="53.34" y="96.52" rot="MR90">
+<element name="R43" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="53.34" y="96.52" rot="MR90">
 <attribute name="SPICEPREFIX" value="R" x="53.34" y="96.52" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="R44" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="" x="45.72" y="96.52" rot="MR90">
+<element name="R44" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="45.72" y="96.52" rot="MR90">
 <attribute name="SPICEPREFIX" value="R" x="45.72" y="96.52" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="R45" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="" x="38.1" y="96.52" rot="MR90">
+<element name="R45" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="38.1" y="96.52" rot="MR90">
 <attribute name="SPICEPREFIX" value="R" x="38.1" y="96.52" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="R46" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="" x="30.48" y="96.52" rot="MR90">
+<element name="R46" library="rcl" library_urn="urn:adsk.eagle:library:334" package="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k" x="30.48" y="96.52" rot="MR90">
 <attribute name="SPICEPREFIX" value="R" x="30.48" y="96.52" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 </elements>
