@@ -19054,10 +19054,6 @@ D = Direct mounting &lt;p&gt;
 <wire x1="150" y1="0" x2="150" y2="100" width="0" layer="20"/>
 <wire x1="150" y1="100" x2="0" y2="100" width="0" layer="20"/>
 <wire x1="0" y1="100" x2="0" y2="0" width="0" layer="20"/>
-<hole x="28.05" y="5" drill="3.5"/>
-<hole x="27.94" y="59.69" drill="3.5"/>
-<hole x="120.65" y="59.69" drill="3.5"/>
-<hole x="120.68" y="5" drill="3.5"/>
 <hole x="4" y="95" drill="1"/>
 <hole x="146" y="5" drill="1"/>
 <hole x="4" y="5" drill="1"/>
