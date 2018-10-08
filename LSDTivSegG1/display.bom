@@ -1,94 +1,140 @@
-Part	Value	Device	Package	Library	Sheet	URL
-C1	100n	C-EU025-025X050	C025-025X050	rcl	1	
-C2	15p	C-EU025-025X050	C025-025X050	rcl	1	
-C3	15p	C-EU025-025X050	C025-025X050	rcl	1	
-C4	1uF	CPOL-EUE2.5-5	E2,5-5	rcl	4	
-C5	1uF	CPOL-EUE2.5-5	E2,5-5	rcl	4	
-C6	1uF	CPOL-EUE2.5-5	E2,5-5	rcl	4	
-C7	1uF	CPOL-EUE2.5-5	E2,5-5	rcl	4	
-C8	100n	C-EU025-025X050	C025-025X050	rcl	1	
-IC1	MEGA8-P	MEGA8-P	DIL28-3	atmel	1	
-IC2	MAX232	MAX232	DIL16	maxim	4	
-IC3	PCF8574P	PCF8574P	DIL16	micro-philips	7	
-IC4	PCF8574P	PCF8574P	DIL16	micro-philips	7	
-IC5	PCF8574P	PCF8574P	DIL16	micro-philips	7	
-IC6	PCF8574P	PCF8574P	DIL16	micro-philips	7	
-LED1	green	LED5MM	LED5MM	led	5	
-LED2	green	LED5MM	LED5MM	led	5	
-LED3	green	LED5MM	LED5MM	led	5	
-LED4	green	LED5MM	LED5MM	led	5	
-LED5	green	LED5MM	LED5MM	led	5	
-LED6	green	LED5MM	LED5MM	led	5	
-LED7	yellow	LED5MM	LED5MM	led	5	
-LED8	yellow	LED5MM	LED5MM	led	5	
-LED9	yellow	LED5MM	LED5MM	led	5	
-LED10	yellow	LED5MM	LED5MM	led	5	
-LED11	red	LED5MM	LED5MM	led	5	
-LED12	red	LED5MM	LED5MM	led	5	
-LED13	green	LED5MM	LED5MM	led	5	
-LED14	green	LED5MM	LED5MM	led	5	
-LED15	green	LED5MM	LED5MM	led	5	
-LED16	green	LED5MM	LED5MM	led	5	
-LED17	green	LED5MM	LED5MM	led	5	
-LED18	green	LED5MM	LED5MM	led	5	
-LED19	yellow	LED5MM	LED5MM	led	5	
-LED20	yellow	LED5MM	LED5MM	led	5	
-LED21	yellow	LED5MM	LED5MM	led	5	
-LED22	yellow	LED5MM	LED5MM	led	5	
-LED23	red	LED5MM	LED5MM	led	5	
-LED24	red	LED5MM	LED5MM	led	5	
-LED25	blue	LED3MM	LED3MM	led	1	
-LED26	green	LED3MM	LED3MM	led	1	
-LED27	yellow	LED3MM	LED3MM	led	1	
-LED28	red	LED3MM	LED3MM	led	1	
-Q1	CRYSTALHC49U-V	HC49U-V	crystal	1		
-R1	10k	R-EU_0207/10	0207/10	rcl	1	
-R2	10k	TRIM_EU-PT10	PT-10	pot	2	
-R3	1k0	R-EU_0207/10	0207/10	rcl	2	
-R4	2k2	R-EU_0207/10	0207/10	rcl	2	
-R5	47R	R-EU_0207/10	0207/10	rcl	2	
-R6	10k	R-EU_0207/10	0207/10	rcl	7	
-R7	10k	R-EU_0207/10	0207/10	rcl	7	
-R8	10k	R-EU_0207/10	0207/10	rcl	7	
-R9	10k	R-EU_0207/10	0207/10	rcl	7	
-R10	4k7	R-EU_0207/10	0207/10	rcl	1	
-R11	4k7	R-EU_0207/10	0207/10	rcl	1	
-R12	100R	R-EU_0207/10	0207/10	rcl	5	
-R13	100R	R-EU_0207/10	0207/10	rcl	5	
-R14	100R	R-EU_0207/10	0207/10	rcl	5	
-R15	100R	R-EU_0207/10	0207/10	rcl	5	
-R16	100R	R-EU_0207/10	0207/10	rcl	5	
-R17	100R	R-EU_0207/10	0207/10	rcl	5	
-R18	100R	R-EU_0207/10	0207/10	rcl	5	
-R19	100R	R-EU_0207/10	0207/10	rcl	5	
-R20	100R	R-EU_0207/10	0207/10	rcl	5	
-R21	100R	R-EU_0207/10	0207/10	rcl	5	
-R22	150R	R-EU_0207/10	0207/10	rcl	5	
-R23	150R	R-EU_0207/10	0207/10	rcl	5	
-R24	100R	R-EU_0207/10	0207/10	rcl	5	
-R25	100R	R-EU_0207/10	0207/10	rcl	5	
-R26	100R	R-EU_0207/10	0207/10	rcl	5	
-R27	100R	R-EU_0207/10	0207/10	rcl	5	
-R28	100R	R-EU_0207/10	0207/10	rcl	5	
-R29	100R	R-EU_0207/10	0207/10	rcl	5	
-R30	100R	R-EU_0207/10	0207/10	rcl	5	
-R31	100R	R-EU_0207/10	0207/10	rcl	5	
-R32	100R	R-EU_0207/10	0207/10	rcl	5	
-R33	100R	R-EU_0207/10	0207/10	rcl	5	
-R34	150R	R-EU_0207/10	0207/10	rcl	5	
-R35	150R	R-EU_0207/10	0207/10	rcl	5	
-R36	100R	R-EU_0207/10	0207/10	rcl	1	
-R37	100R	R-EU_0207/10	0207/10	rcl	1	
-R38	220R	R-EU_0207/10	0207/10	rcl	1	
-R39	150R	R-EU_0207/10	0207/10	rcl	1	
-S1	10-XX	B3F-10XX	switch-omron	6		
-S2	10-XX	B3F-10XX	switch-omron	6		
-S3	10-XX	B3F-10XX	switch-omron	6		
-S4	10-XX	B3F-10XX	switch-omron	6		
-S5	10-XX	B3F-10XX	switch-omron	6		
-S6	10-XX	B3F-10XX	switch-omron	6		
-S7	10-XX	B3F-10XX	switch-omron	6		
-S8	10-XX	B3F-10XX	switch-omron	6		
-SV1	ML10	ML10	con-ml	1		
-U$1	LCD	LCD	LCD	lsd2016	2	
-X1	F09HP	F09HP	con-subd	3		
+Partlist
+
+Exported from display.brd at 08.10.18 14:29
+
+EAGLE Version 9.1.3 Copyright (c) 1988-2018 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value          Package      Library       Position (mil)        Orientation
+
+C1       100n           C025-025X050 rcl           (5150 3600)           R180
+C2       15p            C025-025X050 rcl           (4975 3100)           R90
+C3       15p            C025-025X050 rcl           (4975 2900)           MR90
+C4       1uF            E2,5-5       rcl           (3750 3075)           R270
+C5       1uF            E2,5-5       rcl           (4800 3075)           R90
+C6       1uF            E2,5-5       rcl           (3750 3300)           R90
+C7       1uF            E2,5-5       rcl           (4800 3300)           R270
+C8       100n           C025-025X050 rcl           (5175 3250)           R180
+C10      100nF          C025-025X050 rcl           (150 2800)            R0
+C11      100nF          C025-025X050 rcl           (1025 3375)           R180
+C12      100nF          C025-025X050 rcl           (850 900)             R0
+C13      100nF          C025-025X050 rcl           (5100 350)            R0
+IC1      MEGA8-P        DIL28-3      atmel         (5500 2950)           R270
+IC2      MAX232         DIL16        maxim         (4275 3225)           R0
+IC3      PCF8574P       DIL16        micro-philips (1550 3225)           R0
+IC4      PCF8574P       DIL16        micro-philips (250 2300)            R270
+IC5      PCF8574P       DIL16        micro-philips (500 600)             R180
+IC6      PCF8574P       DIL16        micro-philips (5400 650)            MR180
+JP1                     1X02         pinhead       (2900 2800)           R90
+JP2                     2X03         pinhead       (2900 3150)           R0
+LED1     green          LED5MM       led           (2600 2700)           R90
+LED2     green          LED5MM       led           (2300 2700)           R90
+LED3     green          LED5MM       led           (2000 2700)           R90
+LED4     green          LED5MM       led           (1700 2700)           R90
+LED5     green          LED5MM       led           (1400 2700)           R90
+LED6     green          LED5MM       led           (1100 2700)           R90
+LED7     yellow         LED5MM       led           (800 2600)            R90
+LED8     yellow         LED5MM       led           (700 2300)            R180
+LED9     yellow         LED5MM       led           (700 2000)            R180
+LED10    yellow         LED5MM       led           (700 1700)            R180
+LED11    red            LED5MM       led           (700 1400)            R180
+LED12    red            LED5MM       led           (700 1100)            R180
+LED13    green          LED5MM       led           (3200 2700)           R90
+LED14    green          LED5MM       led           (3500 2700)           R90
+LED15    green          LED5MM       led           (3800 2700)           R90
+LED16    green          LED5MM       led           (4100 2700)           R90
+LED17    green          LED5MM       led           (4400 2700)           R90
+LED18    green          LED5MM       led           (4700 2700)           R90
+LED19    yellow         LED5MM       led           (5000 2600)           R90
+LED20    yellow         LED5MM       led           (5100 2300)           R0
+LED21    yellow         LED5MM       led           (5100 2000)           R0
+LED22    yellow         LED5MM       led           (5100 1700)           R0
+LED23    red            LED5MM       led           (5100 1400)           R0
+LED24    red            LED5MM       led           (5100 1100)           R0
+LED25    blue           LED3MM       led           (3400 3150)           R90
+LED26    green          LED3MM       led           (3200 3150)           R90
+LED27    yellow         LED3MM       led           (2600 3150)           R90
+LED28    red            LED3MM       led           (2400 3150)           R90
+Q1                      HC49U-V      crystal       (5150 2950)           R270
+R1       10k            0207/10      rcl           (5450 3750)           R0
+R2       5k             PT-10        pot           (300 1300)            R180
+R3       15k            0207/10      rcl           (350 1600)            R180
+R4       10k            R0805        rcl           (4600 3800)           MR270
+R5       47R            0207/10      rcl           (5150 100)            R0
+R6       10k            0207/10      rcl           (900 3275)            R0
+R7       10k            0207/10      rcl           (550 2650)            R270
+R8       10k            0207/10      rcl           (700 300)             R180
+R9       10k            0207/10      rcl           (5250 250)            R0
+R10      4k7            0207/10      rcl           (5800 3175)           R270
+R11      4k7            0207/10      rcl           (5800 3675)           R90
+R12      100R           0207/10      rcl           (2600 1500)           R270
+R13      100R           0207/10      rcl           (2500 1500)           R270
+R14      100R           0207/10      rcl           (2400 1500)           R270
+R15      100R           0207/10      rcl           (2300 1500)           R270
+R16      100R           0207/10      rcl           (2200 1500)           R270
+R17      100R           0207/10      rcl           (2100 1500)           R270
+R18      100R           0207/10      rcl           (2000 1500)           R270
+R19      100R           0207/10      rcl           (1900 1500)           R270
+R20      100R           0207/10      rcl           (1800 1500)           R270
+R21      100R           0207/10      rcl           (1700 1500)           R270
+R22      150R           0207/10      rcl           (1800 1100)           R0
+R23      150R           0207/10      rcl           (1800 1000)           R0
+R24      100R           0207/10      rcl           (3200 1500)           R270
+R25      100R           0207/10      rcl           (3300 1500)           R270
+R26      100R           0207/10      rcl           (3400 1500)           R270
+R27      100R           0207/10      rcl           (3500 1500)           R270
+R28      100R           0207/10      rcl           (3600 1500)           R270
+R29      100R           0207/10      rcl           (3700 1500)           R270
+R30      100R           0207/10      rcl           (3800 1500)           R270
+R31      100R           0207/10      rcl           (3900 1500)           R270
+R32      100R           0207/10      rcl           (4000 1500)           R270
+R33      100R           0207/10      rcl           (4100 1500)           R270
+R34      150R           0207/10      rcl           (4000 950)            R180
+R35      150R           0207/10      rcl           (4000 850)            R180
+R36      100R           0207/10      rcl           (3350 3000)           R0
+R37      100R           0207/10      rcl           (3350 2900)           R0
+R38      220R           0207/10      rcl           (2500 3000)           R180
+R39      150R           0207/10      rcl           (2500 2900)           R180
+R40      10k            R0805        rcl           (4300 3800)           MR270
+R41      10k            R0805        rcl           (4000 3800)           MR270
+R42      10k            R0805        rcl           (3700 3800)           MR270
+R43      10k            R0805        rcl           (2100 3800)           MR270
+R44      10k            R0805        rcl           (1800 3800)           MR270
+R45      10k            R0805        rcl           (1500 3800)           MR270
+R46      10k            R0805        rcl           (1200 3800)           MR270
+S1                      B3F-10XX     switch-omron  (1200 3700)           R270
+S2                      B3F-10XX     switch-omron  (1500 3700)           R90
+S3                      B3F-10XX     switch-omron  (1800 3700)           R270
+S4                      B3F-10XX     switch-omron  (2100 3700)           R90
+S5                      B3F-10XX     switch-omron  (3700 3700)           R90
+S6                      B3F-10XX     switch-omron  (4000 3700)           R270
+S7                      B3F-10XX     switch-omron  (4300 3700)           R90
+S8                      B3F-10XX     switch-omron  (4600 3700)           R270
+SV1                     ML10         con-ml        (5600 1550)           R90
+T1       BC847          SOT23        transistor    (2500 2700)           MR180
+T2       BC847          SOT23        transistor    (2200 2700)           MR180
+T3       BC847          SOT23        transistor    (1900 2700)           MR180
+T4       BC847          SOT23        transistor    (1600 2700)           MR180
+T5       BC847          SOT23        transistor    (1300 2700)           MR180
+T6       BC847          SOT23        transistor    (1000 2700)           MR180
+T7       BC847          SOT23        transistor    (800 2400)            MR270
+T8       BC847          SOT23        transistor    (650 2200)            MR90
+T9       BC847          SOT23        transistor    (700 1900)            MR270
+T10      BC847          SOT23        transistor    (700 1600)            MR270
+T11      BC847          SOT23        transistor    (700 1300)            MR270
+T12      BC847          SOT23        transistor    (600 1200)            MR90
+T13      BC847          SOT23        transistor    (3100 2700)           MR0
+T14      BC847          SOT23        transistor    (3350 2700)           MR0
+T15      BC847          SOT23        transistor    (3650 2700)           MR0
+T16      BC847          SOT23        transistor    (3950 2700)           MR0
+T17      BC847          SOT23        transistor    (4250 2700)           MR0
+T18      BC847          SOT23        transistor    (4550 2700)           MR0
+T19      BC847          SOT23        transistor    (5100 2600)           MR270
+T20      BC847          SOT23        transistor    (5100 2400)           MR90
+T21      BC847          SOT23        transistor    (5250 1950)           MR0
+T22      BC847          SOT23        transistor    (5250 1650)           MR0
+T23      BC847          SOT23        transistor    (5250 1350)           MR0
+T24      BC847          SOT23        transistor    (5150 950)            MR0
+U$1      LCD            LCD          lsd2016       (4450 200)            R180
+X1                      F09HP        con-subd      (2900 3450)           R0
