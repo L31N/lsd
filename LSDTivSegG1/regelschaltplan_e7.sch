@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.7.0">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -18260,65 +18260,6 @@ W = angled&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
-<library name="traco_tmr">
-<description>&lt;b&gt;Traco Power TMR series: 2-3W DC-DC converters in compact SIP-8 package&lt;/b&gt;
-&lt;p&gt;&lt;b&gt;Doublecheck before using!&lt;/b&gt;&lt;/p&gt;</description>
-<packages>
-<package name="TRACO_SIP-8">
-<wire x1="-10.9" y1="3.33" x2="-10.9" y2="-6.13" width="0.2032" layer="21"/>
-<wire x1="-10.9" y1="-6.13" x2="10.9" y2="-6.13" width="0.2032" layer="21"/>
-<wire x1="10.9" y1="-6.13" x2="10.9" y2="3.33" width="0.2032" layer="21"/>
-<wire x1="10.9" y1="3.33" x2="-10.9" y2="3.33" width="0.2032" layer="21"/>
-<pad name="5" x="1.27" y="0" drill="0.7" shape="long" rot="R90"/>
-<pad name="3" x="-3.81" y="0" drill="0.7" shape="long" rot="R90"/>
-<pad name="2" x="-6.35" y="0" drill="0.7" shape="long" rot="R90"/>
-<pad name="1" x="-8.89" y="0" drill="0.7" shape="long" rot="R90"/>
-<pad name="6" x="3.81" y="0" drill="0.7" shape="long" rot="R90"/>
-<pad name="7" x="6.35" y="0" drill="0.7" shape="long" rot="R90"/>
-<pad name="8" x="8.89" y="0" drill="0.7" shape="long" rot="R90"/>
-</package>
-</packages>
-<symbols>
-<symbol name="DC-DC_CONVERTER">
-<wire x1="-12.7" y1="5.08" x2="0" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="0" y1="5.08" x2="12.7" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="12.7" y1="5.08" x2="12.7" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="12.7" y1="-7.62" x2="0" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="0" y1="-7.62" x2="-12.7" y2="-7.62" width="0.4064" layer="94"/>
-<wire x1="-12.7" y1="-7.62" x2="-12.7" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="0" y1="5.08" x2="0" y2="-7.62" width="0.254" layer="94" style="shortdash"/>
-<text x="-12.7" y="5.715" size="1.778" layer="95">&gt;NAME</text>
-<text x="-12.7" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-11.303" y="-6.604" size="1.27" layer="94">DC/DC CONVERTER</text>
-<pin name="+VIN" x="-15.24" y="2.54" length="short" direction="pas"/>
-<pin name="-VIN" x="-15.24" y="-2.54" length="short" direction="pas"/>
-<pin name="+VOUT" x="15.24" y="2.54" length="short" direction="pas" rot="R180"/>
-<pin name="ON/OFF" x="-15.24" y="0" length="short" direction="pas"/>
-<pin name="-VOUT" x="15.24" y="-2.54" length="short" direction="pas" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="TMR" prefix="DC">
-<gates>
-<gate name="G$1" symbol="DC-DC_CONVERTER" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="TRACO_SIP-8">
-<connects>
-<connect gate="G$1" pin="+VIN" pad="2"/>
-<connect gate="G$1" pin="+VOUT" pad="6"/>
-<connect gate="G$1" pin="-VIN" pad="1"/>
-<connect gate="G$1" pin="-VOUT" pad="7"/>
-<connect gate="G$1" pin="ON/OFF" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="supply1@1">
 <description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
  GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
@@ -18726,6 +18667,65 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="regelschaltplan_e7">
+<description>Generated from &lt;b&gt;regelschaltplan_e7.sch&lt;/b&gt;&lt;p&gt;
+by exp-lbrs.ulp</description>
+<packages>
+<package name="TRACO_SIP-8">
+<wire x1="-10.9" y1="3.33" x2="-10.9" y2="-6.13" width="0.2032" layer="21"/>
+<wire x1="-10.9" y1="-6.13" x2="10.9" y2="-6.13" width="0.2032" layer="21"/>
+<wire x1="10.9" y1="-6.13" x2="10.9" y2="3.33" width="0.2032" layer="21"/>
+<wire x1="10.9" y1="3.33" x2="-10.9" y2="3.33" width="0.2032" layer="21"/>
+<pad name="1" x="-8.89" y="0" drill="0.8" shape="long" rot="R90"/>
+<pad name="2" x="-6.35" y="0" drill="0.8" shape="long" rot="R90"/>
+<pad name="3" x="-3.81" y="0" drill="0.8" shape="long" rot="R90"/>
+<pad name="5" x="1.27" y="0" drill="0.8" shape="long" rot="R90"/>
+<pad name="6" x="3.81" y="0" drill="0.8" shape="long" rot="R90"/>
+<pad name="7" x="6.35" y="0" drill="0.8" shape="long" rot="R90"/>
+<pad name="8" x="8.89" y="0" drill="0.8" shape="long" rot="R90"/>
+</package>
+</packages>
+<symbols>
+<symbol name="DC-DC_CONVERTER">
+<wire x1="-12.7" y1="5.08" x2="0" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="0" y1="5.08" x2="12.7" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="5.08" x2="12.7" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="0" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="0" y1="-7.62" x2="-12.7" y2="-7.62" width="0.4064" layer="94"/>
+<wire x1="-12.7" y1="-7.62" x2="-12.7" y2="5.08" width="0.4064" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="-7.62" width="0.254" layer="94"/>
+<pin name="+VIN" x="-15.24" y="2.54" length="short" direction="pas"/>
+<pin name="+VOUT" x="15.24" y="2.54" length="short" direction="pas" rot="R180"/>
+<pin name="-VIN" x="-15.24" y="-2.54" length="short" direction="pas"/>
+<pin name="-VOUT" x="15.24" y="-2.54" length="short" direction="pas" rot="R180"/>
+<pin name="ON/OFF" x="-15.24" y="0" length="short" direction="pas"/>
+<text x="-12.7" y="5.715" size="1.778" layer="95">&gt;NAME</text>
+<text x="-12.7" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-11.303" y="-6.604" size="1.27" layer="94">DC/DC CONVERTER</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="TMR" prefix="DC">
+<gates>
+<gate name="G$1" symbol="DC-DC_CONVERTER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TRACO_SIP-8">
+<connects>
+<connect gate="G$1" pin="+VIN" pad="2"/>
+<connect gate="G$1" pin="+VOUT" pad="6"/>
+<connect gate="G$1" pin="-VIN" pad="1"/>
+<connect gate="G$1" pin="-VOUT" pad="7"/>
+<connect gate="G$1" pin="ON/OFF" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -18825,7 +18825,7 @@ Siemens, Hewlett-Packard, Texas Instuments, Sharp, Motorola&lt;p&gt;
 <part name="R26" library="rcl" deviceset="R-EU_" device="0207/10" value="330"/>
 <part name="R27" library="rcl" deviceset="R-EU_" device="0207/10" value="330"/>
 <part name="FRAME8" library="frames" deviceset="FRAME_A_L" device=""/>
-<part name="DC1" library="traco_tmr" deviceset="TMR" device=""/>
+<part name="DC1" library="regelschaltplan_e7" deviceset="TMR" device=""/>
 <part name="LED12" library="led" deviceset="LED" device="3MM" value="blau"/>
 <part name="R34" library="rcl" deviceset="R-EU_" device="0207/10" value="100"/>
 <part name="GND11" library="hcontrol" deviceset="GND" device=""/>
